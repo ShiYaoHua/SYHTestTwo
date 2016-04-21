@@ -28,6 +28,7 @@
 		A36E84FC1CC8B9260058CCD7 /* MASExampleListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A36E84FB1CC8B9260058CCD7 /* MASExampleListViewController.m */; };
 		A36E84FF1CC8B9950058CCD7 /* MASExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A36E84FE1CC8B9950058CCD7 /* MASExampleViewController.m */; };
 		A36E85031CC8BA500058CCD7 /* MASExampleBasicView.m in Sources */ = {isa = PBXBuildFile; fileRef = A36E85021CC8BA500058CCD7 /* MASExampleBasicView.m */; };
+		A36E85061CC8CDC60058CCD7 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A36E85051CC8CDC60058CCD7 /* Masonry.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +96,7 @@
 		A36E85011CC8BA500058CCD7 /* MASExampleBasicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASExampleBasicView.h; sourceTree = "<group>"; };
 		A36E85021CC8BA500058CCD7 /* MASExampleBasicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASExampleBasicView.m; sourceTree = "<group>"; };
 		A36E85041CC8BB280058CCD7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A36E85051CC8CDC60058CCD7 /* Masonry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Masonry.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A36E85061CC8CDC60058CCD7 /* Masonry.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +192,7 @@
 		A36E84D01CC8B8270058CCD7 /* Masonry */ = {
 			isa = PBXGroup;
 			children = (
+				A36E85051CC8CDC60058CCD7 /* Masonry.framework */,
 				A36E84D11CC8B8270058CCD7 /* Info.plist */,
 				A36E84D21CC8B8270058CCD7 /* MASCompositeConstraint.h */,
 				A36E84D31CC8B8270058CCD7 /* MASCompositeConstraint.m */,
@@ -525,6 +529,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Masonry",
+				);
+				GCC_PREFIX_HEADER = MineDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = MineDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mobo.com.MineDemo;
@@ -536,6 +545,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Masonry",
+				);
+				GCC_PREFIX_HEADER = MineDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = MineDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mobo.com.MineDemo;

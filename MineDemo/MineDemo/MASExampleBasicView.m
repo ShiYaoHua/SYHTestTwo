@@ -7,6 +7,7 @@
 //
 
 #import "MASExampleBasicView.h"
+#import "Masonry.h"
 
 @implementation MASExampleBasicView
 - (id)init {
