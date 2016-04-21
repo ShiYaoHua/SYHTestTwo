@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MASExampleBasicView.h
 //  MineDemo
 //
 //  Created by shiyaohua on 16/4/21.
@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+/**
+ * 代码约束
+ */
+@interface MASExampleBasicView : UIView
 
 @end
-

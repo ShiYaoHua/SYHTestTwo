@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "MASExampleListViewController.h"
+
 
 @interface AppDelegate ()
 
@@ -16,7 +18,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:MASExampleListViewController.new];
+    self.window.rootViewController = navigationController;
+    
     return YES;
 }
 
