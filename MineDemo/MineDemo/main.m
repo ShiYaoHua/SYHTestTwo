@@ -1,17 +1,15 @@
 //
 //  main.m
-//  Test_Pro
+//  MineDemo
 //
-//  Created by HuHongbing  on 12/18/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Created by shiyaohua on 16/4/21.
+//  Copyright © 2016年 shiyaohua. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
-
 #import "AppDelegate.h"
 
-int main(int argc, char *argv[])
-{
+int main(int argc, char * argv[]) {
     @autoreleasepool {
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }

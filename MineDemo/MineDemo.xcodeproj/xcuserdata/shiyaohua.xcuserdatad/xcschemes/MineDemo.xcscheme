@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8F1C0AFB16800A2100DAD2A7"
-               BuildableName = "Test_Pro.app"
-               BlueprintName = "Test_Pro"
-               ReferencedContainer = "container:Test_Pro.xcodeproj">
+               BlueprintIdentifier = "A36E84991CC8B7AD0058CCD7"
+               BuildableName = "MineDemo.app"
+               BlueprintName = "MineDemo"
+               ReferencedContainer = "container:MineDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,14 +28,34 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A36E84B21CC8B7AE0058CCD7"
+               BuildableName = "MineDemoTests.xctest"
+               BlueprintName = "MineDemoTests"
+               ReferencedContainer = "container:MineDemo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A36E84BD1CC8B7AE0058CCD7"
+               BuildableName = "MineDemoUITests.xctest"
+               BlueprintName = "MineDemoUITests"
+               ReferencedContainer = "container:MineDemo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8F1C0AFB16800A2100DAD2A7"
-            BuildableName = "Test_Pro.app"
-            BlueprintName = "Test_Pro"
-            ReferencedContainer = "container:Test_Pro.xcodeproj">
+            BlueprintIdentifier = "A36E84991CC8B7AD0058CCD7"
+            BuildableName = "MineDemo.app"
+            BlueprintName = "MineDemo"
+            ReferencedContainer = "container:MineDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8F1C0AFB16800A2100DAD2A7"
-            BuildableName = "Test_Pro.app"
-            BlueprintName = "Test_Pro"
-            ReferencedContainer = "container:Test_Pro.xcodeproj">
+            BlueprintIdentifier = "A36E84991CC8B7AD0058CCD7"
+            BuildableName = "MineDemo.app"
+            BlueprintName = "MineDemo"
+            ReferencedContainer = "container:MineDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8F1C0AFB16800A2100DAD2A7"
-            BuildableName = "Test_Pro.app"
-            BlueprintName = "Test_Pro"
-            ReferencedContainer = "container:Test_Pro.xcodeproj">
+            BlueprintIdentifier = "A36E84991CC8B7AD0058CCD7"
+            BuildableName = "MineDemo.app"
+            BlueprintName = "MineDemo"
+            ReferencedContainer = "container:MineDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

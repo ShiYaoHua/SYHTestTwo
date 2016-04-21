@@ -1,9 +1,9 @@
 //
 //  AppDelegate.h
-//  Test_Pro
+//  MineDemo
 //
-//  Created by HuHongbing  on 12/18/12.
-//  Copyright (c) huhongbin2000@126.com. All rights reserved.
+//  Created by shiyaohua on 16/4/21.
+//  Copyright © 2016年 shiyaohua. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -12,4 +12,6 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
+
 @end
+
