@@ -27,7 +27,7 @@
     self = [super init];
     if (!self) return nil;
     
-    self.tableView = [[UITableView alloc]initWithFrame:[UIScreen mainScreen].bounds style:UITableViewStylePlain];
+    self.tableView = [[UITableView alloc]initWithFrame:UIScreenBounds style:UITableViewStylePlain];
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
     [self addSubview:self.tableView];

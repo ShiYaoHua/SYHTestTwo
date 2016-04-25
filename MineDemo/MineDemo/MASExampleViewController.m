@@ -7,6 +7,7 @@
 //
 
 #import "MASExampleViewController.h"
+#import "SVProgressHUDView.h"
 
 @interface MASExampleViewController ()
 
@@ -21,15 +22,22 @@
     if (!self) return nil;
     
     self.title = title;
+   
     self.viewClass = viewClass;
-    
+
     return self;
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.view = self.viewClass.new;
+    
+     if ([self.title isEqualToString:@"SVProgressHUD_SDK"]) {
+         self.view = [[[NSBundle mainBundle]loadNibNamed:@"SVProgressHUDView" owner:self options:nil]lastObject];
+     }else{
+         self.view = self.viewClass.new;
+     }
+
     self.view.backgroundColor = [UIColor whiteColor];
 
 }

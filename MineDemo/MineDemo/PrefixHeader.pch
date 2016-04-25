@@ -10,5 +10,6 @@
 #define PrefixHeader_pch
 
 #import "Masonry.h"
+#define UIScreenBounds [UIScreen mainScreen].bounds
 
 #endif

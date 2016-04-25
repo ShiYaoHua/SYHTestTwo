@@ -10,6 +10,8 @@
 #import "MASExampleViewController.h"
 #import "MASExampleBasicView.h"
 #import "ExampleTableViewCell.h"
+#import "SVProgressHUDView.h"
+#import "AwesomeMenuView.h"
 
 
 static NSString * const kMASCellReuseIdentifier = @"kMASCellReuseIdentifier";
@@ -31,11 +33,17 @@ static NSString * const kMASCellReuseIdentifier = @"kMASCellReuseIdentifier";
     tableView.dataSource = self;
     [self.view addSubview:tableView];
     [tableView registerClass:UITableViewCell.class forCellReuseIdentifier:kMASCellReuseIdentifier];
+    
+    //cell自适应高度
+    tableView.estimatedRowHeight = 40;
+    tableView.rowHeight = UITableViewAutomaticDimension;
 
     
     self.exampleControllers =
     @[[[MASExampleViewController alloc] initWithTitle:@"Masony代码约束" viewClass:MASExampleBasicView.class],
-      [[MASExampleViewController alloc] initWithTitle:@"UITableViewCell的子类实现了左右滑动显示信息视图并调出按钮" viewClass:ExampleTableViewCell.class]
+      [[MASExampleViewController alloc] initWithTitle:@"UITableViewCell的子类实现了左右滑动显示信息视图并调出按钮" viewClass:ExampleTableViewCell.class],
+      [[MASExampleViewController alloc] initWithTitle:@"SVProgressHUD_SDK" viewClass:SVProgressHUDView.class],
+      [[MASExampleViewController alloc] initWithTitle:@"炫酷放射弹出按钮菜单" viewClass:AwesomeMenuView.class]
       ];
     
 
@@ -46,6 +54,7 @@ static NSString * const kMASCellReuseIdentifier = @"kMASCellReuseIdentifier";
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UIViewController *viewController = self.exampleControllers[indexPath.row];
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:kMASCellReuseIdentifier forIndexPath:indexPath];
+    cell.textLabel.numberOfLines = 0;
     cell.textLabel.text = viewController.title;
     return cell;
 }
@@ -57,6 +66,8 @@ static NSString * const kMASCellReuseIdentifier = @"kMASCellReuseIdentifier";
 #pragma mark - UITableViewDelegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
     UIViewController *viewController = self.exampleControllers[indexPath.row];
     [self.navigationController pushViewController:viewController animated:YES];
 }
