@@ -9,9 +9,12 @@
 #import "MASExampleListViewController.h"
 #import "MASExampleViewController.h"
 #import "MASExampleBasicView.h"
+#import "ExampleTableViewCell.h"
 
 
-@interface MASExampleListViewController ()
+static NSString * const kMASCellReuseIdentifier = @"kMASCellReuseIdentifier";
+
+@interface MASExampleListViewController ()<UITableViewDataSource,UITableViewDelegate>
 
 @property (nonatomic, strong) NSArray *exampleControllers;
 
@@ -23,11 +26,39 @@
     [super viewDidLoad];
     self.title = @"Examples";
     
+    UITableView *tableView = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStylePlain];
+    tableView.delegate = self;
+    tableView.dataSource = self;
+    [self.view addSubview:tableView];
+    [tableView registerClass:UITableViewCell.class forCellReuseIdentifier:kMASCellReuseIdentifier];
+
+    
     self.exampleControllers =
-    @[[[MASExampleViewController alloc] initWithTitle:@"Masony代码约束" viewClass:MASExampleBasicView.class]
+    @[[[MASExampleViewController alloc] initWithTitle:@"Masony代码约束" viewClass:MASExampleBasicView.class],
+      [[MASExampleViewController alloc] initWithTitle:@"UITableViewCell的子类实现了左右滑动显示信息视图并调出按钮" viewClass:ExampleTableViewCell.class]
       ];
     
 
+}
+
+#pragma mark - UITableViewDataSource
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UIViewController *viewController = self.exampleControllers[indexPath.row];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:kMASCellReuseIdentifier forIndexPath:indexPath];
+    cell.textLabel.text = viewController.title;
+    return cell;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return self.exampleControllers.count;
+}
+
+#pragma mark - UITableViewDelegate
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    UIViewController *viewController = self.exampleControllers[indexPath.row];
+    [self.navigationController pushViewController:viewController animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

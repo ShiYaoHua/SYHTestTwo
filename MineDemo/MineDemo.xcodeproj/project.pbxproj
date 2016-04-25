@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A31C18D51CCDBF17001006B3 /* NSMutableArray+SWUtilityButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = A31C18CA1CCDBF17001006B3 /* NSMutableArray+SWUtilityButtons.m */; };
+		A31C18D61CCDBF17001006B3 /* SWCellScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A31C18CC1CCDBF17001006B3 /* SWCellScrollView.m */; };
+		A31C18D71CCDBF17001006B3 /* SWLongPressGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = A31C18CE1CCDBF17001006B3 /* SWLongPressGestureRecognizer.m */; };
+		A31C18D81CCDBF17001006B3 /* SWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A31C18D01CCDBF17001006B3 /* SWTableViewCell.m */; };
+		A31C18D91CCDBF17001006B3 /* SWUtilityButtonTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = A31C18D21CCDBF17001006B3 /* SWUtilityButtonTapGestureRecognizer.m */; };
+		A31C18DA1CCDBF17001006B3 /* SWUtilityButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = A31C18D41CCDBF17001006B3 /* SWUtilityButtonView.m */; };
+		A31C18DE1CCDBFB2001006B3 /* UMTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A31C18DD1CCDBFB2001006B3 /* UMTableViewCell.m */; };
+		A31C18E01CCDC602001006B3 /* UMTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A31C18DF1CCDC602001006B3 /* UMTableViewCell.xib */; };
+		A31C18E21CCDC65C001006B3 /* um.png in Resources */ = {isa = PBXBuildFile; fileRef = A31C18E11CCDC65C001006B3 /* um.png */; };
+		A31C18E51CCDC8CD001006B3 /* ExampleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A31C18E41CCDC8CD001006B3 /* ExampleTableViewCell.m */; };
 		A36E849F1CC8B7AD0058CCD7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A36E849E1CC8B7AD0058CCD7 /* main.m */; };
 		A36E84A21CC8B7AD0058CCD7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A36E84A11CC8B7AD0058CCD7 /* AppDelegate.m */; };
 		A36E84A81CC8B7AD0058CCD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A36E84A61CC8B7AD0058CCD7 /* Main.storyboard */; };
@@ -28,7 +38,6 @@
 		A36E84FC1CC8B9260058CCD7 /* MASExampleListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A36E84FB1CC8B9260058CCD7 /* MASExampleListViewController.m */; };
 		A36E84FF1CC8B9950058CCD7 /* MASExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A36E84FE1CC8B9950058CCD7 /* MASExampleViewController.m */; };
 		A36E85031CC8BA500058CCD7 /* MASExampleBasicView.m in Sources */ = {isa = PBXBuildFile; fileRef = A36E85021CC8BA500058CCD7 /* MASExampleBasicView.m */; };
-		A36E85061CC8CDC60058CCD7 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A36E85051CC8CDC60058CCD7 /* Masonry.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +58,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A31C18C91CCDBF17001006B3 /* NSMutableArray+SWUtilityButtons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+SWUtilityButtons.h"; path = "PodFiles/NSMutableArray+SWUtilityButtons.h"; sourceTree = "<group>"; };
+		A31C18CA1CCDBF17001006B3 /* NSMutableArray+SWUtilityButtons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+SWUtilityButtons.m"; path = "PodFiles/NSMutableArray+SWUtilityButtons.m"; sourceTree = "<group>"; };
+		A31C18CB1CCDBF17001006B3 /* SWCellScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWCellScrollView.h; path = PodFiles/SWCellScrollView.h; sourceTree = "<group>"; };
+		A31C18CC1CCDBF17001006B3 /* SWCellScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWCellScrollView.m; path = PodFiles/SWCellScrollView.m; sourceTree = "<group>"; };
+		A31C18CD1CCDBF17001006B3 /* SWLongPressGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWLongPressGestureRecognizer.h; path = PodFiles/SWLongPressGestureRecognizer.h; sourceTree = "<group>"; };
+		A31C18CE1CCDBF17001006B3 /* SWLongPressGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWLongPressGestureRecognizer.m; path = PodFiles/SWLongPressGestureRecognizer.m; sourceTree = "<group>"; };
+		A31C18CF1CCDBF17001006B3 /* SWTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWTableViewCell.h; path = PodFiles/SWTableViewCell.h; sourceTree = "<group>"; };
+		A31C18D01CCDBF17001006B3 /* SWTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWTableViewCell.m; path = PodFiles/SWTableViewCell.m; sourceTree = "<group>"; };
+		A31C18D11CCDBF17001006B3 /* SWUtilityButtonTapGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWUtilityButtonTapGestureRecognizer.h; path = PodFiles/SWUtilityButtonTapGestureRecognizer.h; sourceTree = "<group>"; };
+		A31C18D21CCDBF17001006B3 /* SWUtilityButtonTapGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWUtilityButtonTapGestureRecognizer.m; path = PodFiles/SWUtilityButtonTapGestureRecognizer.m; sourceTree = "<group>"; };
+		A31C18D31CCDBF17001006B3 /* SWUtilityButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWUtilityButtonView.h; path = PodFiles/SWUtilityButtonView.h; sourceTree = "<group>"; };
+		A31C18D41CCDBF17001006B3 /* SWUtilityButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWUtilityButtonView.m; path = PodFiles/SWUtilityButtonView.m; sourceTree = "<group>"; };
+		A31C18DC1CCDBFB2001006B3 /* UMTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UMTableViewCell.h; path = PodFiles/UMTableViewCell.h; sourceTree = "<group>"; };
+		A31C18DD1CCDBFB2001006B3 /* UMTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UMTableViewCell.m; path = PodFiles/UMTableViewCell.m; sourceTree = "<group>"; };
+		A31C18DF1CCDC602001006B3 /* UMTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMTableViewCell.xib; sourceTree = "<group>"; };
+		A31C18E11CCDC65C001006B3 /* um.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = um.png; sourceTree = "<group>"; };
+		A31C18E31CCDC8CD001006B3 /* ExampleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleTableViewCell.h; sourceTree = "<group>"; };
+		A31C18E41CCDC8CD001006B3 /* ExampleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleTableViewCell.m; sourceTree = "<group>"; };
 		A36E849A1CC8B7AD0058CCD7 /* MineDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MineDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A36E849E1CC8B7AD0058CCD7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A36E84A01CC8B7AD0058CCD7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -96,7 +123,6 @@
 		A36E85011CC8BA500058CCD7 /* MASExampleBasicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASExampleBasicView.h; sourceTree = "<group>"; };
 		A36E85021CC8BA500058CCD7 /* MASExampleBasicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASExampleBasicView.m; sourceTree = "<group>"; };
 		A36E85041CC8BB280058CCD7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		A36E85051CC8CDC60058CCD7 /* Masonry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Masonry.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +130,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A36E85061CC8CDC60058CCD7 /* Masonry.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,10 +150,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A36E84911CC8B7AD0058CCD7 = {
+		A31C18DB1CCDBF20001006B3 /* CustomTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				A31C18C91CCDBF17001006B3 /* NSMutableArray+SWUtilityButtons.h */,
+				A31C18CA1CCDBF17001006B3 /* NSMutableArray+SWUtilityButtons.m */,
+				A31C18CB1CCDBF17001006B3 /* SWCellScrollView.h */,
+				A31C18CC1CCDBF17001006B3 /* SWCellScrollView.m */,
+				A31C18CD1CCDBF17001006B3 /* SWLongPressGestureRecognizer.h */,
+				A31C18CE1CCDBF17001006B3 /* SWLongPressGestureRecognizer.m */,
+				A31C18CF1CCDBF17001006B3 /* SWTableViewCell.h */,
+				A31C18D01CCDBF17001006B3 /* SWTableViewCell.m */,
+				A31C18D11CCDBF17001006B3 /* SWUtilityButtonTapGestureRecognizer.h */,
+				A31C18D21CCDBF17001006B3 /* SWUtilityButtonTapGestureRecognizer.m */,
+				A31C18D31CCDBF17001006B3 /* SWUtilityButtonView.h */,
+				A31C18D41CCDBF17001006B3 /* SWUtilityButtonView.m */,
+				A31C18DC1CCDBFB2001006B3 /* UMTableViewCell.h */,
+				A31C18DD1CCDBFB2001006B3 /* UMTableViewCell.m */,
+				A31C18DF1CCDC602001006B3 /* UMTableViewCell.xib */,
+			);
+			name = CustomTableViewCell;
+			sourceTree = "<group>";
+		};
+		A31C18E61CCDEC5C001006B3 /* group2 */ = {
+			isa = PBXGroup;
+			children = (
+				A31C18E31CCDC8CD001006B3 /* ExampleTableViewCell.h */,
+				A31C18E41CCDC8CD001006B3 /* ExampleTableViewCell.m */,
+				A31C18DB1CCDBF20001006B3 /* CustomTableViewCell */,
+			);
+			name = group2;
+			sourceTree = "<group>";
+		};
+		A31C18E71CCDEC74001006B3 /* group1 */ = {
 			isa = PBXGroup;
 			children = (
 				A36E84D01CC8B8270058CCD7 /* Masonry */,
+				A36E85011CC8BA500058CCD7 /* MASExampleBasicView.h */,
+				A36E85021CC8BA500058CCD7 /* MASExampleBasicView.m */,
+			);
+			name = group1;
+			sourceTree = "<group>";
+		};
+		A36E84911CC8B7AD0058CCD7 = {
+			isa = PBXGroup;
+			children = (
 				A36E849C1CC8B7AD0058CCD7 /* MineDemo */,
 				A36E84B61CC8B7AE0058CCD7 /* MineDemoTests */,
 				A36E84C11CC8B7AE0058CCD7 /* MineDemoUITests */,
@@ -153,10 +219,8 @@
 				A36E84A11CC8B7AD0058CCD7 /* AppDelegate.m */,
 				A36E84F91CC8B8A00058CCD7 /* viewcontroller */,
 				A36E85001CC8BA3C0058CCD7 /* view */,
-				A36E84A61CC8B7AD0058CCD7 /* Main.storyboard */,
-				A36E84A91CC8B7AD0058CCD7 /* Assets.xcassets */,
 				A36E84AB1CC8B7AD0058CCD7 /* LaunchScreen.storyboard */,
-				A36E84AE1CC8B7AD0058CCD7 /* Info.plist */,
+				A36E84A61CC8B7AD0058CCD7 /* Main.storyboard */,
 				A36E849D1CC8B7AD0058CCD7 /* Supporting Files */,
 			);
 			path = MineDemo;
@@ -165,6 +229,9 @@
 		A36E849D1CC8B7AD0058CCD7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A36E84AE1CC8B7AD0058CCD7 /* Info.plist */,
+				A36E84A91CC8B7AD0058CCD7 /* Assets.xcassets */,
+				A31C18E11CCDC65C001006B3 /* um.png */,
 				A36E849E1CC8B7AD0058CCD7 /* main.m */,
 				A36E85041CC8BB280058CCD7 /* PrefixHeader.pch */,
 			);
@@ -192,7 +259,6 @@
 		A36E84D01CC8B8270058CCD7 /* Masonry */ = {
 			isa = PBXGroup;
 			children = (
-				A36E85051CC8CDC60058CCD7 /* Masonry.framework */,
 				A36E84D11CC8B8270058CCD7 /* Info.plist */,
 				A36E84D21CC8B8270058CCD7 /* MASCompositeConstraint.h */,
 				A36E84D31CC8B8270058CCD7 /* MASCompositeConstraint.m */,
@@ -220,7 +286,8 @@
 				A36E84E91CC8B8280058CCD7 /* ViewController+MASAdditions.h */,
 				A36E84EA1CC8B8280058CCD7 /* ViewController+MASAdditions.m */,
 			);
-			path = Masonry;
+			name = Masonry;
+			path = ../Masonry;
 			sourceTree = "<group>";
 		};
 		A36E84F91CC8B8A00058CCD7 /* viewcontroller */ = {
@@ -237,8 +304,8 @@
 		A36E85001CC8BA3C0058CCD7 /* view */ = {
 			isa = PBXGroup;
 			children = (
-				A36E85011CC8BA500058CCD7 /* MASExampleBasicView.h */,
-				A36E85021CC8BA500058CCD7 /* MASExampleBasicView.m */,
+				A31C18E71CCDEC74001006B3 /* group1 */,
+				A31C18E61CCDEC5C001006B3 /* group2 */,
 			);
 			name = view;
 			sourceTree = "<group>";
@@ -348,6 +415,8 @@
 			files = (
 				A36E84EB1CC8B8280058CCD7 /* Info.plist in Resources */,
 				A36E84AD1CC8B7AD0058CCD7 /* LaunchScreen.storyboard in Resources */,
+				A31C18E01CCDC602001006B3 /* UMTableViewCell.xib in Resources */,
+				A31C18E21CCDC65C001006B3 /* um.png in Resources */,
 				A36E84AA1CC8B7AD0058CCD7 /* Assets.xcassets in Resources */,
 				A36E84A81CC8B7AD0058CCD7 /* Main.storyboard in Resources */,
 			);
@@ -375,18 +444,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				A36E84F31CC8B8280058CCD7 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				A31C18D91CCDBF17001006B3 /* SWUtilityButtonTapGestureRecognizer.m in Sources */,
+				A31C18D81CCDBF17001006B3 /* SWTableViewCell.m in Sources */,
 				A36E84F11CC8B8280058CCD7 /* MASViewConstraint.m in Sources */,
 				A36E84EC1CC8B8280058CCD7 /* MASCompositeConstraint.m in Sources */,
+				A31C18D61CCDBF17001006B3 /* SWCellScrollView.m in Sources */,
 				A36E84F21CC8B8280058CCD7 /* NSArray+MASAdditions.m in Sources */,
 				A36E84A21CC8B7AD0058CCD7 /* AppDelegate.m in Sources */,
+				A31C18E51CCDC8CD001006B3 /* ExampleTableViewCell.m in Sources */,
 				A36E84FF1CC8B9950058CCD7 /* MASExampleViewController.m in Sources */,
+				A31C18DA1CCDBF17001006B3 /* SWUtilityButtonView.m in Sources */,
 				A36E84EF1CC8B8280058CCD7 /* MASLayoutConstraint.m in Sources */,
 				A36E849F1CC8B7AD0058CCD7 /* main.m in Sources */,
 				A36E84F51CC8B8280058CCD7 /* ViewController+MASAdditions.m in Sources */,
+				A31C18D71CCDBF17001006B3 /* SWLongPressGestureRecognizer.m in Sources */,
+				A31C18D51CCDBF17001006B3 /* NSMutableArray+SWUtilityButtons.m in Sources */,
 				A36E84F41CC8B8280058CCD7 /* View+MASAdditions.m in Sources */,
 				A36E84FC1CC8B9260058CCD7 /* MASExampleListViewController.m in Sources */,
 				A36E85031CC8BA500058CCD7 /* MASExampleBasicView.m in Sources */,
 				A36E84F01CC8B8280058CCD7 /* MASViewAttribute.m in Sources */,
+				A31C18DE1CCDBFB2001006B3 /* UMTableViewCell.m in Sources */,
 				A36E84ED1CC8B8280058CCD7 /* MASConstraint.m in Sources */,
 				A36E84EE1CC8B8280058CCD7 /* MASConstraintMaker.m in Sources */,
 			);
@@ -532,6 +609,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Masonry",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PREFIX_HEADER = MineDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = MineDemo/Info.plist;
@@ -548,6 +626,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Masonry",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PREFIX_HEADER = MineDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = MineDemo/Info.plist;
@@ -622,6 +701,7 @@
 				A36E84C91CC8B7AE0058CCD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A36E84CA1CC8B7AE0058CCD7 /* Build configuration list for PBXNativeTarget "MineDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -630,6 +710,7 @@
 				A36E84CC1CC8B7AE0058CCD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A36E84CD1CC8B7AE0058CCD7 /* Build configuration list for PBXNativeTarget "MineDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -638,6 +719,7 @@
 				A36E84CF1CC8B7AE0058CCD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

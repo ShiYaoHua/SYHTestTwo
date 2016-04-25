@@ -10,6 +10,7 @@
 #import "Masonry.h"
 
 @implementation MASExampleBasicView
+
 - (id)init {
     self = [super init];
     if (!self) return nil;
@@ -36,28 +37,27 @@
     int padding = 10;
     
     
-    [greenView makeConstraints:^(MASConstraintMaker *make) {
-        make.top.greaterThanOrEqualTo(superview.top).offset(padding);
-        make.left.equalTo(superview.left).offset(padding);
-        make.bottom.equalTo(blueView.top).offset(-padding);
-        make.right.equalTo(redView.left).offset(-padding);
-        make.width.equalTo(redView.width);
+    [greenView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.equalTo(superview.mas_top).with.offset(74);
+        make.left.equalTo(superview.mas_left).offset(padding);
+        make.bottom.equalTo(blueView.mas_top).offset(-padding);
+        make.right.equalTo(redView.mas_left).offset(-padding);
+        make.width.equalTo(redView.mas_width);
         
-        make.height.equalTo(redView.height);
-        make.height.equalTo(blueView.height);
+        make.height.equalTo(redView.mas_width);
         
     }];
     
     
     //with is semantic and option
     [redView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.equalTo(superview.mas_top).with.offset(padding); //with with
+        make.top.equalTo(superview.mas_top).with.offset(74); //with with
         make.left.equalTo(greenView.mas_right).offset(padding); //without with
         make.bottom.equalTo(blueView.mas_top).offset(-padding);
         make.right.equalTo(superview.mas_right).offset(-padding);
         make.width.equalTo(greenView.mas_width);
         
-        make.height.equalTo(@[greenView, blueView]); //can pass array of views
+        make.height.equalTo(greenView); //can pass array of views
     }];
     
     [blueView mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -65,7 +65,6 @@
         make.left.equalTo(superview.mas_left).offset(padding);
         make.bottom.equalTo(superview.mas_bottom).offset(-padding);
         make.right.equalTo(superview.mas_right).offset(-padding);
-        make.height.equalTo(@[greenView.mas_height, redView.mas_height]); //can pass array of attributes
     }];
     
     return self;
