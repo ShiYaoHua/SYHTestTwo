@@ -24,6 +24,8 @@
 		A31C18FA1CCDF053001006B3 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A31C18F41CCDF053001006B3 /* SVProgressHUD.m */; };
 		A31C18FB1CCDF053001006B3 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A31C18F61CCDF053001006B3 /* SVRadialGradientLayer.m */; };
 		A31C18FF1CCDF1C8001006B3 /* SVProgressHUDView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A31C18FE1CCDF1C8001006B3 /* SVProgressHUDView.xib */; };
+		A31E1C5D1CCF473B00E04123 /* TimeProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = A31E1C5C1CCF473B00E04123 /* TimeProgressView.m */; };
+		A31E1C601CCF486A00E04123 /* CircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = A31E1C5F1CCF486A00E04123 /* CircleProgressView.m */; };
 		A36E849F1CC8B7AD0058CCD7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A36E849E1CC8B7AD0058CCD7 /* main.m */; };
 		A36E84A21CC8B7AD0058CCD7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A36E84A11CC8B7AD0058CCD7 /* AppDelegate.m */; };
 		A36E84A81CC8B7AD0058CCD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A36E84A61CC8B7AD0058CCD7 /* Main.storyboard */; };
@@ -113,6 +115,10 @@
 		A31C18F51CCDF053001006B3 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
 		A31C18F61CCDF053001006B3 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
 		A31C18FE1CCDF1C8001006B3 /* SVProgressHUDView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SVProgressHUDView.xib; sourceTree = "<group>"; };
+		A31E1C5B1CCF473B00E04123 /* TimeProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeProgressView.h; sourceTree = "<group>"; };
+		A31E1C5C1CCF473B00E04123 /* TimeProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeProgressView.m; sourceTree = "<group>"; };
+		A31E1C5E1CCF486A00E04123 /* CircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleProgressView.h; sourceTree = "<group>"; };
+		A31E1C5F1CCF486A00E04123 /* CircleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleProgressView.m; sourceTree = "<group>"; };
 		A36E849A1CC8B7AD0058CCD7 /* MineDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MineDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A36E849E1CC8B7AD0058CCD7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A36E84A01CC8B7AD0058CCD7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -277,6 +283,25 @@
 			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
+		A31E1C5A1CCF46F100E04123 /* group5 */ = {
+			isa = PBXGroup;
+			children = (
+				A31E1C611CCF488400E04123 /* CircleProgress */,
+				A31E1C5B1CCF473B00E04123 /* TimeProgressView.h */,
+				A31E1C5C1CCF473B00E04123 /* TimeProgressView.m */,
+			);
+			name = group5;
+			sourceTree = "<group>";
+		};
+		A31E1C611CCF488400E04123 /* CircleProgress */ = {
+			isa = PBXGroup;
+			children = (
+				A31E1C5E1CCF486A00E04123 /* CircleProgressView.h */,
+				A31E1C5F1CCF486A00E04123 /* CircleProgressView.m */,
+			);
+			name = CircleProgress;
+			sourceTree = "<group>";
+		};
 		A36E84911CC8B7AD0058CCD7 = {
 			isa = PBXGroup;
 			children = (
@@ -393,6 +418,7 @@
 				A31C18E61CCDEC5C001006B3 /* group2 */,
 				A31C18E81CCDEEBD001006B3 /* group3 */,
 				A3FD032C1CCE135A00302D78 /* group4 */,
+				A31E1C5A1CCF46F100E04123 /* group5 */,
 			);
 			name = view;
 			sourceTree = "<group>";
@@ -594,6 +620,7 @@
 				A31C18D91CCDBF17001006B3 /* SWUtilityButtonTapGestureRecognizer.m in Sources */,
 				A31C18D81CCDBF17001006B3 /* SWTableViewCell.m in Sources */,
 				A36E84F11CC8B8280058CCD7 /* MASViewConstraint.m in Sources */,
+				A31E1C601CCF486A00E04123 /* CircleProgressView.m in Sources */,
 				A31C18FA1CCDF053001006B3 /* SVProgressHUD.m in Sources */,
 				A36E84EC1CC8B8280058CCD7 /* MASCompositeConstraint.m in Sources */,
 				A3FD032F1CCE139800302D78 /* AwesomeMenuView.m in Sources */,
@@ -601,6 +628,7 @@
 				A31C18D61CCDBF17001006B3 /* SWCellScrollView.m in Sources */,
 				A36E84F21CC8B8280058CCD7 /* NSArray+MASAdditions.m in Sources */,
 				A36E84A21CC8B7AD0058CCD7 /* AppDelegate.m in Sources */,
+				A31E1C5D1CCF473B00E04123 /* TimeProgressView.m in Sources */,
 				A3FD03341CCE13C100302D78 /* AwesomeMenu.m in Sources */,
 				A31C18E51CCDC8CD001006B3 /* ExampleTableViewCell.m in Sources */,
 				A36E84FF1CC8B9950058CCD7 /* MASExampleViewController.m in Sources */,

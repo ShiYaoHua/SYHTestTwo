@@ -12,6 +12,7 @@
 #import "ExampleTableViewCell.h"
 #import "SVProgressHUDView.h"
 #import "AwesomeMenuView.h"
+#import "TimeProgressView.h"
 
 
 static NSString * const kMASCellReuseIdentifier = @"kMASCellReuseIdentifier";
@@ -43,7 +44,8 @@ static NSString * const kMASCellReuseIdentifier = @"kMASCellReuseIdentifier";
     @[[[MASExampleViewController alloc] initWithTitle:@"Masony代码约束" viewClass:MASExampleBasicView.class],
       [[MASExampleViewController alloc] initWithTitle:@"UITableViewCell的子类实现了左右滑动显示信息视图并调出按钮" viewClass:ExampleTableViewCell.class],
       [[MASExampleViewController alloc] initWithTitle:@"SVProgressHUD_SDK" viewClass:SVProgressHUDView.class],
-      [[MASExampleViewController alloc] initWithTitle:@"炫酷放射弹出按钮菜单" viewClass:AwesomeMenuView.class]
+      [[MASExampleViewController alloc] initWithTitle:@"炫酷放射弹出按钮菜单" viewClass:AwesomeMenuView.class],
+      [[MASExampleViewController alloc] initWithTitle:@"倒计时进度圈" viewClass:TimeProgressView.class]
       ];
     
 

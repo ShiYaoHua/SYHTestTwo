@@ -10,6 +10,17 @@
 #define PrefixHeader_pch
 
 #import "Masonry.h"
+
 #define UIScreenBounds [UIScreen mainScreen].bounds
+
+#define FILEMANAGER [NSFileManager defaultManager]
+
+//颜色
+#define GlobalwhiteColor [UIColor whiteColor]
+#define GlobaldarkGrayColor [UIColor darkGrayColor]
+#define GlobalredColor [UIColor colorWithRGBString:@"#e64c65"]
+
+#define GlobalTrackColor [UIColor colorWithRGBString:@"#ffeaed"]
+#define GlobalBlackColor [UIColor colorWithRGBString:@"#333333"];
 
 #endif
