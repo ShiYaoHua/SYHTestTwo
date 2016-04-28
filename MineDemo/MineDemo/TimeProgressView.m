@@ -45,7 +45,6 @@ int countDown;
     progressView.progressColor = [UIColor redColor];
     progressView.progressStrokeWidth = 10.f;
     progressView.progressTrackColor = [UIColor orangeColor];
-    
     [self addSubview:progressView];
     
     //倒计时
@@ -53,8 +52,7 @@ int countDown;
     self.timeLab.textAlignment = NSTextAlignmentCenter;
     [self addSubview:self.timeLab];
     
-    //约束
-    
+    //倒计时约束
     [self.timeLab mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(superview.mas_top).with.offset(300);
         make.left.equalTo(superview.mas_left).offset(padding);
