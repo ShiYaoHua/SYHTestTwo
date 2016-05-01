@@ -21,6 +21,7 @@
     
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:MASExampleListViewController.new];
     self.window.rootViewController = navigationController;
+    NSLog(@"test");
     
     return YES;
 }
