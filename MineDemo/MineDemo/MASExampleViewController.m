@@ -8,6 +8,8 @@
 
 #import "MASExampleViewController.h"
 #import "SVProgressHUDView.h"
+#import "NSString+Trim.h"
+#import "NSDate+Formatter.h"
 
 @interface MASExampleViewController ()
 
@@ -39,7 +41,7 @@
      }
 
     self.view.backgroundColor = [UIColor whiteColor];
-
+        
 }
 
 - (void)didReceiveMemoryWarning {

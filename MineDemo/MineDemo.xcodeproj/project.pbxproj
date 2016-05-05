@@ -27,6 +27,10 @@
 		A31E1C5D1CCF473B00E04123 /* TimeProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = A31E1C5C1CCF473B00E04123 /* TimeProgressView.m */; };
 		A31E1C601CCF486A00E04123 /* CircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = A31E1C5F1CCF486A00E04123 /* CircleProgressView.m */; };
 		A31E1C651CCF58E400E04123 /* UIFontView.m in Sources */ = {isa = PBXBuildFile; fileRef = A31E1C641CCF58E400E04123 /* UIFontView.m */; };
+		A345868F1CDAF05D00F59E0B /* NSArray+keyedArchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = A345867F1CDAF05D00F59E0B /* NSArray+keyedArchiver.m */; };
+		A34586901CDAF05D00F59E0B /* NSDate+Formatter.m in Sources */ = {isa = PBXBuildFile; fileRef = A34586811CDAF05D00F59E0B /* NSDate+Formatter.m */; };
+		A34586941CDAF05D00F59E0B /* NSString+Trim.m in Sources */ = {isa = PBXBuildFile; fileRef = A34586891CDAF05D00F59E0B /* NSString+Trim.m */; };
+		A34586951CDAF05D00F59E0B /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = A345868B1CDAF05D00F59E0B /* UIImage+Resize.m */; };
 		A36E849F1CC8B7AD0058CCD7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A36E849E1CC8B7AD0058CCD7 /* main.m */; };
 		A36E84A21CC8B7AD0058CCD7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A36E84A11CC8B7AD0058CCD7 /* AppDelegate.m */; };
 		A36E84A81CC8B7AD0058CCD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A36E84A61CC8B7AD0058CCD7 /* Main.storyboard */; };
@@ -122,6 +126,14 @@
 		A31E1C5F1CCF486A00E04123 /* CircleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleProgressView.m; sourceTree = "<group>"; };
 		A31E1C631CCF58E400E04123 /* UIFontView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFontView.h; sourceTree = "<group>"; };
 		A31E1C641CCF58E400E04123 /* UIFontView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIFontView.m; sourceTree = "<group>"; };
+		A345867E1CDAF05D00F59E0B /* NSArray+keyedArchiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+keyedArchiver.h"; sourceTree = "<group>"; };
+		A345867F1CDAF05D00F59E0B /* NSArray+keyedArchiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+keyedArchiver.m"; sourceTree = "<group>"; };
+		A34586801CDAF05D00F59E0B /* NSDate+Formatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Formatter.h"; sourceTree = "<group>"; };
+		A34586811CDAF05D00F59E0B /* NSDate+Formatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Formatter.m"; sourceTree = "<group>"; };
+		A34586881CDAF05D00F59E0B /* NSString+Trim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Trim.h"; sourceTree = "<group>"; };
+		A34586891CDAF05D00F59E0B /* NSString+Trim.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Trim.m"; sourceTree = "<group>"; };
+		A345868A1CDAF05D00F59E0B /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		A345868B1CDAF05D00F59E0B /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
 		A36E849A1CC8B7AD0058CCD7 /* MineDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MineDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A36E849E1CC8B7AD0058CCD7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A36E84A01CC8B7AD0058CCD7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -314,6 +326,28 @@
 			name = group6;
 			sourceTree = "<group>";
 		};
+		A345867A1CDAF02500F59E0B /* group7 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = group7;
+			sourceTree = "<group>";
+		};
+		A345867B1CDAF05D00F59E0B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A345867E1CDAF05D00F59E0B /* NSArray+keyedArchiver.h */,
+				A345867F1CDAF05D00F59E0B /* NSArray+keyedArchiver.m */,
+				A34586801CDAF05D00F59E0B /* NSDate+Formatter.h */,
+				A34586811CDAF05D00F59E0B /* NSDate+Formatter.m */,
+				A34586881CDAF05D00F59E0B /* NSString+Trim.h */,
+				A34586891CDAF05D00F59E0B /* NSString+Trim.m */,
+				A345868A1CDAF05D00F59E0B /* UIImage+Resize.h */,
+				A345868B1CDAF05D00F59E0B /* UIImage+Resize.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		A36E84911CC8B7AD0058CCD7 = {
 			isa = PBXGroup;
 			children = (
@@ -426,6 +460,8 @@
 		A36E85001CC8BA3C0058CCD7 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				A345867B1CDAF05D00F59E0B /* Category */,
+				A345867A1CDAF02500F59E0B /* group7 */,
 				A31C18E71CCDEC74001006B3 /* group1 */,
 				A31C18E61CCDEC5C001006B3 /* group2 */,
 				A31C18E81CCDEEBD001006B3 /* group3 */,
@@ -642,6 +678,8 @@
 				A31C18D61CCDBF17001006B3 /* SWCellScrollView.m in Sources */,
 				A36E84F21CC8B8280058CCD7 /* NSArray+MASAdditions.m in Sources */,
 				A36E84A21CC8B7AD0058CCD7 /* AppDelegate.m in Sources */,
+				A34586941CDAF05D00F59E0B /* NSString+Trim.m in Sources */,
+				A345868F1CDAF05D00F59E0B /* NSArray+keyedArchiver.m in Sources */,
 				A31E1C5D1CCF473B00E04123 /* TimeProgressView.m in Sources */,
 				A3FD03341CCE13C100302D78 /* AwesomeMenu.m in Sources */,
 				A31C18E51CCDC8CD001006B3 /* ExampleTableViewCell.m in Sources */,
@@ -651,6 +689,7 @@
 				A36E849F1CC8B7AD0058CCD7 /* main.m in Sources */,
 				A36E84F51CC8B8280058CCD7 /* ViewController+MASAdditions.m in Sources */,
 				A31C18D71CCDBF17001006B3 /* SWLongPressGestureRecognizer.m in Sources */,
+				A34586901CDAF05D00F59E0B /* NSDate+Formatter.m in Sources */,
 				A31C18D51CCDBF17001006B3 /* NSMutableArray+SWUtilityButtons.m in Sources */,
 				A31C18EB1CCDEEFE001006B3 /* SVProgressHUDView.m in Sources */,
 				A36E84F41CC8B8280058CCD7 /* View+MASAdditions.m in Sources */,
@@ -662,6 +701,7 @@
 				A36E84ED1CC8B8280058CCD7 /* MASConstraint.m in Sources */,
 				A3FD03351CCE13C100302D78 /* AwesomeMenuItem.m in Sources */,
 				A36E84EE1CC8B8280058CCD7 /* MASConstraintMaker.m in Sources */,
+				A34586951CDAF05D00F59E0B /* UIImage+Resize.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
