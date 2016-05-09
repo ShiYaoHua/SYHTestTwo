@@ -10,6 +10,7 @@
 #define PrefixHeader_pch
 
 #import "Masonry.h"
+#import "SVProgressHUD.h"
 
 #define UIScreenBounds [UIScreen mainScreen].bounds
 
@@ -23,4 +24,10 @@
 #define GlobalTrackColor [UIColor colorWithRGBString:@"#ffeaed"]
 #define GlobalBlackColor [UIColor colorWithRGBString:@"#333333"];
 
+#endif
+
+#ifdef DEBUG
+#    define DLog(...) NSLog(__VA_ARGS__)
+#else
+#    define DLog(...) /* */
 #endif

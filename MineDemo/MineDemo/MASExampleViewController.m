@@ -8,8 +8,7 @@
 
 #import "MASExampleViewController.h"
 #import "SVProgressHUDView.h"
-#import "NSString+Trim.h"
-#import "NSDate+Formatter.h"
+#import "LoginView.h"
 
 @interface MASExampleViewController ()
 
@@ -39,7 +38,12 @@
      }else{
          self.view = self.viewClass.new;
      }
-
+    
+    if ([self.title isEqualToString:@"第三方登录"]) {
+        self.view = [[[NSBundle mainBundle]loadNibNamed:@"LoginView" owner:self options:nil]lastObject];
+    }else{
+        self.view = self.viewClass.new;
+    }
     self.view.backgroundColor = [UIColor whiteColor];
         
 }
