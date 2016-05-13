@@ -2,8 +2,8 @@
 //  ThirdAccountUserInformation.h
 //  soho
 //
-//  Created by liujian on 15/4/17.
-//  Copyright (c) 2015年 Chinamobo. All rights reserved.
+//  Created by syh on 15/4/17.
+//  Copyright (c) 2015年  All rights reserved.
 //
 
 /**
