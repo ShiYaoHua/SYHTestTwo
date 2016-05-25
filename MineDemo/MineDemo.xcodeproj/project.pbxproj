@@ -27,6 +27,7 @@
 		A31E1C5D1CCF473B00E04123 /* TimeProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = A31E1C5C1CCF473B00E04123 /* TimeProgressView.m */; };
 		A31E1C601CCF486A00E04123 /* CircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = A31E1C5F1CCF486A00E04123 /* CircleProgressView.m */; };
 		A31E1C651CCF58E400E04123 /* UIFontView.m in Sources */ = {isa = PBXBuildFile; fileRef = A31E1C641CCF58E400E04123 /* UIFontView.m */; };
+		A335EE1E1CEEB17200E61C68 /* GrayPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = A335EE1D1CEEB17200E61C68 /* GrayPageControl.m */; };
 		A345868F1CDAF05D00F59E0B /* NSArray+keyedArchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = A345867F1CDAF05D00F59E0B /* NSArray+keyedArchiver.m */; };
 		A34586901CDAF05D00F59E0B /* NSDate+Formatter.m in Sources */ = {isa = PBXBuildFile; fileRef = A34586811CDAF05D00F59E0B /* NSDate+Formatter.m */; };
 		A34586941CDAF05D00F59E0B /* NSString+Trim.m in Sources */ = {isa = PBXBuildFile; fileRef = A34586891CDAF05D00F59E0B /* NSString+Trim.m */; };
@@ -54,6 +55,7 @@
 		A36E84FC1CC8B9260058CCD7 /* MASExampleListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A36E84FB1CC8B9260058CCD7 /* MASExampleListViewController.m */; };
 		A36E84FF1CC8B9950058CCD7 /* MASExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A36E84FE1CC8B9950058CCD7 /* MASExampleViewController.m */; };
 		A36E85031CC8BA500058CCD7 /* MASExampleBasicView.m in Sources */ = {isa = PBXBuildFile; fileRef = A36E85021CC8BA500058CCD7 /* MASExampleBasicView.m */; };
+		A396ACA71CF54B6400777ADD /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = A396ACA61CF54B6400777ADD /* TestView.m */; };
 		A3FCF8521CDB246600AE756F /* ApiXml.mm in Sources */ = {isa = PBXBuildFile; fileRef = A3FCF8461CDB246600AE756F /* ApiXml.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A3FCF8531CDB246600AE756F /* payRequsestHandler.mm in Sources */ = {isa = PBXBuildFile; fileRef = A3FCF8481CDB246600AE756F /* payRequsestHandler.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A3FCF8541CDB246600AE756F /* WXUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = A3FCF84A1CDB246600AE756F /* WXUtil.mm */; };
@@ -137,6 +139,8 @@
 		A31E1C5F1CCF486A00E04123 /* CircleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleProgressView.m; sourceTree = "<group>"; };
 		A31E1C631CCF58E400E04123 /* UIFontView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFontView.h; sourceTree = "<group>"; };
 		A31E1C641CCF58E400E04123 /* UIFontView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIFontView.m; sourceTree = "<group>"; };
+		A335EE1C1CEEB17200E61C68 /* GrayPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrayPageControl.h; sourceTree = "<group>"; };
+		A335EE1D1CEEB17200E61C68 /* GrayPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrayPageControl.m; sourceTree = "<group>"; };
 		A345867E1CDAF05D00F59E0B /* NSArray+keyedArchiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+keyedArchiver.h"; sourceTree = "<group>"; };
 		A345867F1CDAF05D00F59E0B /* NSArray+keyedArchiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+keyedArchiver.m"; sourceTree = "<group>"; };
 		A34586801CDAF05D00F59E0B /* NSDate+Formatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Formatter.h"; sourceTree = "<group>"; };
@@ -195,6 +199,8 @@
 		A36E85011CC8BA500058CCD7 /* MASExampleBasicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASExampleBasicView.h; sourceTree = "<group>"; };
 		A36E85021CC8BA500058CCD7 /* MASExampleBasicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASExampleBasicView.m; sourceTree = "<group>"; };
 		A36E85041CC8BB280058CCD7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A396ACA51CF54B6400777ADD /* TestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		A396ACA61CF54B6400777ADD /* TestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
 		A3FCF8451CDB246600AE756F /* ApiXml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiXml.h; sourceTree = "<group>"; };
 		A3FCF8461CDB246600AE756F /* ApiXml.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ApiXml.mm; sourceTree = "<group>"; };
 		A3FCF8471CDB246600AE756F /* payRequsestHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = payRequsestHandler.h; sourceTree = "<group>"; };
@@ -360,6 +366,15 @@
 			name = group6;
 			sourceTree = "<group>";
 		};
+		A335EE181CEEAF4400E61C68 /* group8 */ = {
+			isa = PBXGroup;
+			children = (
+				A335EE1C1CEEB17200E61C68 /* GrayPageControl.h */,
+				A335EE1D1CEEB17200E61C68 /* GrayPageControl.m */,
+			);
+			name = group8;
+			sourceTree = "<group>";
+		};
 		A345867A1CDAF02500F59E0B /* group7 */ = {
 			isa = PBXGroup;
 			children = (
@@ -417,6 +432,7 @@
 				A36E85001CC8BA3C0058CCD7 /* view */,
 				A36E84AB1CC8B7AD0058CCD7 /* LaunchScreen.storyboard */,
 				A36E84A61CC8B7AD0058CCD7 /* Main.storyboard */,
+				A36E84A91CC8B7AD0058CCD7 /* Assets.xcassets */,
 				A36E849D1CC8B7AD0058CCD7 /* Supporting Files */,
 			);
 			path = MineDemo;
@@ -430,7 +446,6 @@
 				A3FCF85C1CDB2CC300AE756F /* libsqlite3.0.tbd */,
 				A3FCF85A1CDB2C9400AE756F /* SystemConfiguration.framework */,
 				A36E84AE1CC8B7AD0058CCD7 /* Info.plist */,
-				A36E84A91CC8B7AD0058CCD7 /* Assets.xcassets */,
 				A31C18E11CCDC65C001006B3 /* um.png */,
 				A36E849E1CC8B7AD0058CCD7 /* main.m */,
 				A36E85041CC8BB280058CCD7 /* PrefixHeader.pch */,
@@ -504,6 +519,8 @@
 		A36E85001CC8BA3C0058CCD7 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				A396ACA41CF54A2000777ADD /* group9 */,
+				A335EE181CEEAF4400E61C68 /* group8 */,
 				A345867B1CDAF05D00F59E0B /* Category */,
 				A345867A1CDAF02500F59E0B /* group7 */,
 				A31C18E71CCDEC74001006B3 /* group1 */,
@@ -514,6 +531,15 @@
 				A31E1C621CCF58B900E04123 /* group6 */,
 			);
 			name = view;
+			sourceTree = "<group>";
+		};
+		A396ACA41CF54A2000777ADD /* group9 */ = {
+			isa = PBXGroup;
+			children = (
+				A396ACA51CF54B6400777ADD /* TestView.h */,
+				A396ACA61CF54B6400777ADD /* TestView.m */,
+			);
+			name = group9;
 			sourceTree = "<group>";
 		};
 		A3FCF8341CDB245700AE756F /* SDK */ = {
@@ -742,11 +768,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A31C18F71CCDF053001006B3 /* SVIndefiniteAnimatedView.m in Sources */,
+				A335EE1E1CEEB17200E61C68 /* GrayPageControl.m in Sources */,
 				A31E1C651CCF58E400E04123 /* UIFontView.m in Sources */,
 				A36E84F31CC8B8280058CCD7 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				A31C18D91CCDBF17001006B3 /* SWUtilityButtonTapGestureRecognizer.m in Sources */,
 				A3FCF8521CDB246600AE756F /* ApiXml.mm in Sources */,
 				A31C18D81CCDBF17001006B3 /* SWTableViewCell.m in Sources */,
+				A396ACA71CF54B6400777ADD /* TestView.m in Sources */,
 				A36E84F11CC8B8280058CCD7 /* MASViewConstraint.m in Sources */,
 				A31E1C601CCF486A00E04123 /* CircleProgressView.m in Sources */,
 				A31C18FA1CCDF053001006B3 /* SVProgressHUD.m in Sources */,
@@ -924,6 +952,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -948,6 +977,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
