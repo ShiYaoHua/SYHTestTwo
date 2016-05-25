@@ -56,6 +56,7 @@
 		A36E84FF1CC8B9950058CCD7 /* MASExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A36E84FE1CC8B9950058CCD7 /* MASExampleViewController.m */; };
 		A36E85031CC8BA500058CCD7 /* MASExampleBasicView.m in Sources */ = {isa = PBXBuildFile; fileRef = A36E85021CC8BA500058CCD7 /* MASExampleBasicView.m */; };
 		A396ACA71CF54B6400777ADD /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = A396ACA61CF54B6400777ADD /* TestView.m */; };
+		A396ACB81CF59E8100777ADD /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A396ACB71CF59E8100777ADD /* CoreTelephony.framework */; };
 		A3FCF8521CDB246600AE756F /* ApiXml.mm in Sources */ = {isa = PBXBuildFile; fileRef = A3FCF8461CDB246600AE756F /* ApiXml.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A3FCF8531CDB246600AE756F /* payRequsestHandler.mm in Sources */ = {isa = PBXBuildFile; fileRef = A3FCF8481CDB246600AE756F /* payRequsestHandler.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A3FCF8541CDB246600AE756F /* WXUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = A3FCF84A1CDB246600AE756F /* WXUtil.mm */; };
@@ -201,6 +202,7 @@
 		A36E85041CC8BB280058CCD7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		A396ACA51CF54B6400777ADD /* TestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
 		A396ACA61CF54B6400777ADD /* TestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
+		A396ACB71CF59E8100777ADD /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		A3FCF8451CDB246600AE756F /* ApiXml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiXml.h; sourceTree = "<group>"; };
 		A3FCF8461CDB246600AE756F /* ApiXml.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ApiXml.mm; sourceTree = "<group>"; };
 		A3FCF8471CDB246600AE756F /* payRequsestHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = payRequsestHandler.h; sourceTree = "<group>"; };
@@ -243,6 +245,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A396ACB81CF59E8100777ADD /* CoreTelephony.framework in Frameworks */,
 				A3FCF8611CDB2E9E00AE756F /* libc++.tbd in Frameworks */,
 				A3FCF85F1CDB2E8E00AE756F /* libz.tbd in Frameworks */,
 				A3FCF85D1CDB2CC300AE756F /* libsqlite3.0.tbd in Frameworks */,
@@ -441,6 +444,7 @@
 		A36E849D1CC8B7AD0058CCD7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A396ACB71CF59E8100777ADD /* CoreTelephony.framework */,
 				A3FCF8601CDB2E9E00AE756F /* libc++.tbd */,
 				A3FCF85E1CDB2E8E00AE756F /* libz.tbd */,
 				A3FCF85C1CDB2CC300AE756F /* libsqlite3.0.tbd */,
@@ -962,6 +966,7 @@
 				);
 				GCC_PREFIX_HEADER = MineDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = MineDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -987,6 +992,7 @@
 				);
 				GCC_PREFIX_HEADER = MineDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = MineDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",

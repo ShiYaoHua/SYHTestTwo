@@ -22,7 +22,15 @@
 #define GlobalredColor [UIColor colorWithRGBString:@"#e64c65"]
 
 #define GlobalTrackColor [UIColor colorWithRGBString:@"#ffeaed"]
-#define GlobalBlackColor [UIColor colorWithRGBString:@"#333333"];
+#define GlobalBlackColor [UIColor colorWithRGBString:@"#333333"]
+//通知
+#define ORDER_PAY_NOTIFICATION @"ORDER_PAY_NOTIFICATION"
+
+/**微信*/
+#define KWeiXinID @"wx85ee056177fbe8a5"
+#define KWeiXinSecret @"5a4c655047d176eaf73eb1453742f607"
+#define WeiXinSuccessLoginNotification @"WeiXinSuccessLoginNotification"
+
 
 #endif
 

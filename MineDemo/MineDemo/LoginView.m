@@ -17,9 +17,6 @@
 
 /**验证码倒计时*/
 int registerCountDown = 59;
-/**微信*/
-NSString *const KWeiXinSecret = @"5a4c655047d176eaf73eb1453742f607";
-NSString *const WeiXinSuccessLoginNotification = @"WeiXinSuccessLoginNotification";
 
 @interface LoginView()
 {
@@ -212,14 +209,30 @@ NSString *const WeiXinSuccessLoginNotification = @"WeiXinSuccessLoginNotificatio
     
     
     // 如果手机没有安装微信或版本不支持，提示用户安装
-    if (![WXApi isWXAppInstalled] || ![WXApi isWXAppSupportApi])
-    {
+//    if (![WXApi isWXAppInstalled] || ![WXApi isWXAppSupportApi])
+//    {
+//        [SVProgressHUD showErrorWithStatus:@"请先安装微信客户端"];
+//        return;
+//    }
+    
+    if([[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:@"wechat://"]]){
         [SVProgressHUD showErrorWithStatus:@"请先安装微信客户端"];
         return;
     }
     
+    
     SendAuthReq *req = [[SendAuthReq alloc] init];
-    req.scope = @"snsapi_message,snsapi_userinfo,snsapi_friend,snsapi_contact";
+//    req.scope = @"snsapi_message,snsapi_userinfo,snsapi_friend,snsapi_contact";
+    /**
+     snsapi_base:
+     /sns/oauth2/access_token   通过code换取access_token、refresh_token和已授权scope
+     /sns/oauth2/refresh_token	刷新或续期access_token使用
+     /sns/auth                  检查access_token有效性
+     
+     snsapi_userinfo:
+     /sns/userinfo              获取用户个人信息
+     */
+    req.scope = @"snsapi_base,snsapi_userinfo"; //接口作用域（scope）
     req.state = @"222"; // 用来回传
     [WXApi sendReq:req]; // 打开微信客户端
 }
@@ -230,7 +243,7 @@ NSString *const WeiXinSuccessLoginNotification = @"WeiXinSuccessLoginNotificatio
     
     ThirdAccountUserInformation *third = [ThirdAccountUserInformation sharedInformation];
     
-    [self thirdLoginSuccesswithLoginSource:third.login_source openID:third.openID];
+    [self thirdLoginSuccesswithLoginSource:third.login_source openID:third.openid];
 }
 
 
