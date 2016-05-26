@@ -17,6 +17,7 @@
 #import "LoginView.h"
 #import "GrayPageControl.h"
 #import "TestView.h"
+#import "MP3View.h"
 
 static NSString * const kMASCellReuseIdentifier = @"kMASCellReuseIdentifier";
 
@@ -53,6 +54,8 @@ static NSString * const kMASCellReuseIdentifier = @"kMASCellReuseIdentifier";
       [[MASExampleViewController alloc] initWithTitle:@"第三方登录" viewClass:LoginView.class],
       [[MASExampleViewController alloc] initWithTitle:@"自定义分页控制器" viewClass:GrayPageControl.class],
       [[MASExampleViewController alloc] initWithTitle:@"计算label的大小" viewClass:TestView.class],
+      [[MASExampleViewController alloc] initWithTitle:@"mp3" viewClass:MP3View.class],
+
       ];
     
 

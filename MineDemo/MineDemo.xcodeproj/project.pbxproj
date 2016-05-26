@@ -83,6 +83,47 @@
 		A3FD03511CCE1C1D00302D78 /* icon-plus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3FD03431CCE1C1D00302D78 /* icon-plus@2x.png */; };
 		A3FD03521CCE1C1D00302D78 /* icon-star.png in Resources */ = {isa = PBXBuildFile; fileRef = A3FD03441CCE1C1D00302D78 /* icon-star.png */; };
 		A3FD03531CCE1C1D00302D78 /* icon-star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3FD03451CCE1C1D00302D78 /* icon-star@2x.png */; };
+		DEB6DFB41CF742D2002EEA37 /* MP3View.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB6DFB31CF742D2002EEA37 /* MP3View.m */; };
+		DEB6DFB61CF742ED002EEA37 /* MP3View.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEB6DFB51CF742ED002EEA37 /* MP3View.xib */; };
+		DEB6E03B1CF747D6002EEA37 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB6DFBC1CF747D5002EEA37 /* NSObject+YYModel.m */; };
+		DEB6E03C1CF747D6002EEA37 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB6DFBE1CF747D5002EEA37 /* YYClassInfo.m */; };
+		DEB6E0921CF74842002EEA37 /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB6E07F1CF74842002EEA37 /* MJExtensionConst.m */; };
+		DEB6E0931CF74842002EEA37 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB6E0811CF74842002EEA37 /* MJFoundation.m */; };
+		DEB6E0941CF74842002EEA37 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB6E0831CF74842002EEA37 /* MJProperty.m */; };
+		DEB6E0951CF74842002EEA37 /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB6E0851CF74842002EEA37 /* MJPropertyKey.m */; };
+		DEB6E0961CF74842002EEA37 /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB6E0871CF74842002EEA37 /* MJPropertyType.m */; };
+		DEB6E0971CF74842002EEA37 /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB6E0891CF74842002EEA37 /* NSObject+MJClass.m */; };
+		DEB6E0981CF74842002EEA37 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB6E08B1CF74842002EEA37 /* NSObject+MJCoding.m */; };
+		DEB6E0991CF74842002EEA37 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB6E08D1CF74842002EEA37 /* NSObject+MJKeyValue.m */; };
+		DEB6E09A1CF74842002EEA37 /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB6E08F1CF74842002EEA37 /* NSObject+MJProperty.m */; };
+		DEB6E09B1CF74842002EEA37 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB6E0911CF74842002EEA37 /* NSString+MJExtension.m */; };
+		DEB6E0BD1CF74950002EEA37 /* CZMusicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB6E09C1CF74950002EEA37 /* CZMusicModel.m */; };
+		DEB6E0BE1CF74950002EEA37 /* CZMusicTool.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB6E09E1CF74950002EEA37 /* CZMusicTool.m */; };
+		DEB6E0BF1CF74950002EEA37 /* CZLrcModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB6E0A01CF74950002EEA37 /* CZLrcModel.m */; };
+		DEB6E0C01CF74950002EEA37 /* CZLyricTool.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB6E0A21CF74950002EEA37 /* CZLyricTool.m */; };
+		DEB6E0C21CF74950002EEA37 /* CZLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB6E0A61CF74950002EEA37 /* CZLabel.m */; };
+		DEB6E0C31CF74950002EEA37 /* buyao.wav in Resources */ = {isa = PBXBuildFile; fileRef = DEB6E0A81CF74950002EEA37 /* buyao.wav */; };
+		DEB6E0C41CF74950002EEA37 /* chatcome.wav in Resources */ = {isa = PBXBuildFile; fileRef = DEB6E0A91CF74950002EEA37 /* chatcome.wav */; };
+		DEB6E0C51CF74950002EEA37 /* G.E.M. 邓紫棋 - 泡沫.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEB6E0AA1CF74950002EEA37 /* G.E.M. 邓紫棋 - 泡沫.mp3 */; };
+		DEB6E0C61CF74950002EEA37 /* I'm yours.lrc in Resources */ = {isa = PBXBuildFile; fileRef = DEB6E0AB1CF74950002EEA37 /* I'm yours.lrc */; };
+		DEB6E0C71CF74950002EEA37 /* Jason Mraz - I'm Yours.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEB6E0AC1CF74950002EEA37 /* Jason Mraz - I'm Yours.mp3 */; };
+		DEB6E0C81CF74950002EEA37 /* jason.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DEB6E0AD1CF74950002EEA37 /* jason.jpg */; };
+		DEB6E0C91CF74950002EEA37 /* lamazhengzhuan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DEB6E0AE1CF74950002EEA37 /* lamazhengzhuan.jpg */; };
+		DEB6E0CA1CF74950002EEA37 /* Owl City - The Saltwater Room.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEB6E0AF1CF74950002EEA37 /* Owl City - The Saltwater Room.mp3 */; };
+		DEB6E0CB1CF74950002EEA37 /* paomo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DEB6E0B01CF74950002EEA37 /* paomo.jpg */; };
+		DEB6E0CC1CF74950002EEA37 /* st.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DEB6E0B11CF74950002EEA37 /* st.jpg */; };
+		DEB6E0CD1CF74950002EEA37 /* test.wav in Resources */ = {isa = PBXBuildFile; fileRef = DEB6E0B21CF74950002EEA37 /* test.wav */; };
+		DEB6E0CE1CF74950002EEA37 /* The salt water room.lrc in Resources */ = {isa = PBXBuildFile; fileRef = DEB6E0B31CF74950002EEA37 /* The salt water room.lrc */; };
+		DEB6E0CF1CF74950002EEA37 /* xpg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DEB6E0B41CF74950002EEA37 /* xpg.jpg */; };
+		DEB6E0D01CF74950002EEA37 /* 小苹果.lrc in Resources */ = {isa = PBXBuildFile; fileRef = DEB6E0B51CF74950002EEA37 /* 小苹果.lrc */; };
+		DEB6E0D11CF74950002EEA37 /* 小苹果.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEB6E0B61CF74950002EEA37 /* 小苹果.mp3 */; };
+		DEB6E0D21CF74950002EEA37 /* 张译 - 稳稳的幸福.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEB6E0B71CF74950002EEA37 /* 张译 - 稳稳的幸福.mp3 */; };
+		DEB6E0D31CF74950002EEA37 /* 月半小夜曲.lrc in Resources */ = {isa = PBXBuildFile; fileRef = DEB6E0B81CF74950002EEA37 /* 月半小夜曲.lrc */; };
+		DEB6E0D41CF74950002EEA37 /* 李克勤 - 月半小夜曲.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEB6E0B91CF74950002EEA37 /* 李克勤 - 月半小夜曲.mp3 */; };
+		DEB6E0D51CF74950002EEA37 /* 李克勤.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DEB6E0BA1CF74950002EEA37 /* 李克勤.jpg */; };
+		DEB6E0D61CF74950002EEA37 /* 泡沫.lrc in Resources */ = {isa = PBXBuildFile; fileRef = DEB6E0BB1CF74950002EEA37 /* 泡沫.lrc */; };
+		DEB6E0D71CF74950002EEA37 /* 稳稳的幸福.lrc in Resources */ = {isa = PBXBuildFile; fileRef = DEB6E0BC1CF74950002EEA37 /* 稳稳的幸福.lrc */; };
+		DEB6E0DB1CF74D0B002EEA37 /* mlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = DEB6E0DA1CF74D0B002EEA37 /* mlist.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -238,6 +279,67 @@
 		A3FD03431CCE1C1D00302D78 /* icon-plus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-plus@2x.png"; sourceTree = "<group>"; };
 		A3FD03441CCE1C1D00302D78 /* icon-star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-star.png"; sourceTree = "<group>"; };
 		A3FD03451CCE1C1D00302D78 /* icon-star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-star@2x.png"; sourceTree = "<group>"; };
+		DEB6DFB21CF742D2002EEA37 /* MP3View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP3View.h; sourceTree = "<group>"; };
+		DEB6DFB31CF742D2002EEA37 /* MP3View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MP3View.m; sourceTree = "<group>"; };
+		DEB6DFB51CF742ED002EEA37 /* MP3View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MP3View.xib; sourceTree = "<group>"; };
+		DEB6DFBB1CF747D5002EEA37 /* NSObject+YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYModel.h"; sourceTree = "<group>"; };
+		DEB6DFBC1CF747D5002EEA37 /* NSObject+YYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModel.m"; sourceTree = "<group>"; };
+		DEB6DFBD1CF747D5002EEA37 /* YYClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
+		DEB6DFBE1CF747D5002EEA37 /* YYClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
+		DEB6DFBF1CF747D5002EEA37 /* YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYModel.h; sourceTree = "<group>"; };
+		DEB6E07D1CF74842002EEA37 /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		DEB6E07E1CF74842002EEA37 /* MJExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
+		DEB6E07F1CF74842002EEA37 /* MJExtensionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConst.m; sourceTree = "<group>"; };
+		DEB6E0801CF74842002EEA37 /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
+		DEB6E0811CF74842002EEA37 /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
+		DEB6E0821CF74842002EEA37 /* MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJProperty.h; sourceTree = "<group>"; };
+		DEB6E0831CF74842002EEA37 /* MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJProperty.m; sourceTree = "<group>"; };
+		DEB6E0841CF74842002EEA37 /* MJPropertyKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyKey.h; sourceTree = "<group>"; };
+		DEB6E0851CF74842002EEA37 /* MJPropertyKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyKey.m; sourceTree = "<group>"; };
+		DEB6E0861CF74842002EEA37 /* MJPropertyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyType.h; sourceTree = "<group>"; };
+		DEB6E0871CF74842002EEA37 /* MJPropertyType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyType.m; sourceTree = "<group>"; };
+		DEB6E0881CF74842002EEA37 /* NSObject+MJClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJClass.h"; sourceTree = "<group>"; };
+		DEB6E0891CF74842002EEA37 /* NSObject+MJClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJClass.m"; sourceTree = "<group>"; };
+		DEB6E08A1CF74842002EEA37 /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		DEB6E08B1CF74842002EEA37 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		DEB6E08C1CF74842002EEA37 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		DEB6E08D1CF74842002EEA37 /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		DEB6E08E1CF74842002EEA37 /* NSObject+MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		DEB6E08F1CF74842002EEA37 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		DEB6E0901CF74842002EEA37 /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
+		DEB6E0911CF74842002EEA37 /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+		DEB6E09C1CF74950002EEA37 /* CZMusicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZMusicModel.m; sourceTree = "<group>"; };
+		DEB6E09D1CF74950002EEA37 /* CZMusicTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZMusicTool.h; sourceTree = "<group>"; };
+		DEB6E09E1CF74950002EEA37 /* CZMusicTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZMusicTool.m; sourceTree = "<group>"; };
+		DEB6E09F1CF74950002EEA37 /* CZLrcModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZLrcModel.h; sourceTree = "<group>"; };
+		DEB6E0A01CF74950002EEA37 /* CZLrcModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZLrcModel.m; sourceTree = "<group>"; };
+		DEB6E0A11CF74950002EEA37 /* CZLyricTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZLyricTool.h; sourceTree = "<group>"; };
+		DEB6E0A21CF74950002EEA37 /* CZLyricTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZLyricTool.m; sourceTree = "<group>"; };
+		DEB6E0A31CF74950002EEA37 /* CZMusicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZMusicModel.h; sourceTree = "<group>"; };
+		DEB6E0A51CF74950002EEA37 /* CZLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZLabel.h; sourceTree = "<group>"; };
+		DEB6E0A61CF74950002EEA37 /* CZLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZLabel.m; sourceTree = "<group>"; };
+		DEB6E0A81CF74950002EEA37 /* buyao.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = buyao.wav; sourceTree = "<group>"; };
+		DEB6E0A91CF74950002EEA37 /* chatcome.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = chatcome.wav; sourceTree = "<group>"; };
+		DEB6E0AA1CF74950002EEA37 /* G.E.M. 邓紫棋 - 泡沫.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "G.E.M. 邓紫棋 - 泡沫.mp3"; sourceTree = "<group>"; };
+		DEB6E0AB1CF74950002EEA37 /* I'm yours.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "I'm yours.lrc"; sourceTree = "<group>"; };
+		DEB6E0AC1CF74950002EEA37 /* Jason Mraz - I'm Yours.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Jason Mraz - I'm Yours.mp3"; sourceTree = "<group>"; };
+		DEB6E0AD1CF74950002EEA37 /* jason.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jason.jpg; sourceTree = "<group>"; };
+		DEB6E0AE1CF74950002EEA37 /* lamazhengzhuan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lamazhengzhuan.jpg; sourceTree = "<group>"; };
+		DEB6E0AF1CF74950002EEA37 /* Owl City - The Saltwater Room.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Owl City - The Saltwater Room.mp3"; sourceTree = "<group>"; };
+		DEB6E0B01CF74950002EEA37 /* paomo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paomo.jpg; sourceTree = "<group>"; };
+		DEB6E0B11CF74950002EEA37 /* st.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = st.jpg; sourceTree = "<group>"; };
+		DEB6E0B21CF74950002EEA37 /* test.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = test.wav; sourceTree = "<group>"; };
+		DEB6E0B31CF74950002EEA37 /* The salt water room.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "The salt water room.lrc"; sourceTree = "<group>"; };
+		DEB6E0B41CF74950002EEA37 /* xpg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = xpg.jpg; sourceTree = "<group>"; };
+		DEB6E0B51CF74950002EEA37 /* 小苹果.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "小苹果.lrc"; sourceTree = "<group>"; };
+		DEB6E0B61CF74950002EEA37 /* 小苹果.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "小苹果.mp3"; sourceTree = "<group>"; };
+		DEB6E0B71CF74950002EEA37 /* 张译 - 稳稳的幸福.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "张译 - 稳稳的幸福.mp3"; sourceTree = "<group>"; };
+		DEB6E0B81CF74950002EEA37 /* 月半小夜曲.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "月半小夜曲.lrc"; sourceTree = "<group>"; };
+		DEB6E0B91CF74950002EEA37 /* 李克勤 - 月半小夜曲.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "李克勤 - 月半小夜曲.mp3"; sourceTree = "<group>"; };
+		DEB6E0BA1CF74950002EEA37 /* 李克勤.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "李克勤.jpg"; sourceTree = "<group>"; };
+		DEB6E0BB1CF74950002EEA37 /* 泡沫.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "泡沫.lrc"; sourceTree = "<group>"; };
+		DEB6E0BC1CF74950002EEA37 /* 稳稳的幸福.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "稳稳的幸福.lrc"; sourceTree = "<group>"; };
+		DEB6E0DA1CF74D0B002EEA37 /* mlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = mlist.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -444,13 +546,10 @@
 		A36E849D1CC8B7AD0058CCD7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A396ACB71CF59E8100777ADD /* CoreTelephony.framework */,
-				A3FCF8601CDB2E9E00AE756F /* libc++.tbd */,
-				A3FCF85E1CDB2E8E00AE756F /* libz.tbd */,
-				A3FCF85C1CDB2CC300AE756F /* libsqlite3.0.tbd */,
-				A3FCF85A1CDB2C9400AE756F /* SystemConfiguration.framework */,
+				DEB6E0DD1CF74D2E002EEA37 /* image */,
+				DEB6E0DC1CF74D15002EEA37 /* framwork */,
+				DEB6E0DA1CF74D0B002EEA37 /* mlist.plist */,
 				A36E84AE1CC8B7AD0058CCD7 /* Info.plist */,
-				A31C18E11CCDC65C001006B3 /* um.png */,
 				A36E849E1CC8B7AD0058CCD7 /* main.m */,
 				A36E85041CC8BB280058CCD7 /* PrefixHeader.pch */,
 			);
@@ -523,6 +622,7 @@
 		A36E85001CC8BA3C0058CCD7 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				DEB6DFB11CF74288002EEA37 /* group10 */,
 				A396ACA41CF54A2000777ADD /* group9 */,
 				A335EE181CEEAF4400E61C68 /* group8 */,
 				A345867B1CDAF05D00F59E0B /* Category */,
@@ -619,6 +719,134 @@
 				A3FD03451CCE1C1D00302D78 /* icon-star@2x.png */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		DEB6DFB11CF74288002EEA37 /* group10 */ = {
+			isa = PBXGroup;
+			children = (
+				DEB6E0D91CF7497C002EEA37 /* tool */,
+				DEB6E0D81CF7495A002EEA37 /* model */,
+				DEB6E0A71CF74950002EEA37 /* Assets */,
+				DEB6E07C1CF74842002EEA37 /* MJExtension */,
+				DEB6DFBA1CF747D5002EEA37 /* YYModel */,
+				DEB6DFB21CF742D2002EEA37 /* MP3View.h */,
+				DEB6DFB31CF742D2002EEA37 /* MP3View.m */,
+				DEB6DFB51CF742ED002EEA37 /* MP3View.xib */,
+				DEB6E0A51CF74950002EEA37 /* CZLabel.h */,
+				DEB6E0A61CF74950002EEA37 /* CZLabel.m */,
+			);
+			name = group10;
+			sourceTree = "<group>";
+		};
+		DEB6DFBA1CF747D5002EEA37 /* YYModel */ = {
+			isa = PBXGroup;
+			children = (
+				DEB6DFBB1CF747D5002EEA37 /* NSObject+YYModel.h */,
+				DEB6DFBC1CF747D5002EEA37 /* NSObject+YYModel.m */,
+				DEB6DFBD1CF747D5002EEA37 /* YYClassInfo.h */,
+				DEB6DFBE1CF747D5002EEA37 /* YYClassInfo.m */,
+				DEB6DFBF1CF747D5002EEA37 /* YYModel.h */,
+			);
+			name = YYModel;
+			path = YYModel/YYModel;
+			sourceTree = "<group>";
+		};
+		DEB6E07C1CF74842002EEA37 /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				DEB6E07D1CF74842002EEA37 /* MJExtension.h */,
+				DEB6E07E1CF74842002EEA37 /* MJExtensionConst.h */,
+				DEB6E07F1CF74842002EEA37 /* MJExtensionConst.m */,
+				DEB6E0801CF74842002EEA37 /* MJFoundation.h */,
+				DEB6E0811CF74842002EEA37 /* MJFoundation.m */,
+				DEB6E0821CF74842002EEA37 /* MJProperty.h */,
+				DEB6E0831CF74842002EEA37 /* MJProperty.m */,
+				DEB6E0841CF74842002EEA37 /* MJPropertyKey.h */,
+				DEB6E0851CF74842002EEA37 /* MJPropertyKey.m */,
+				DEB6E0861CF74842002EEA37 /* MJPropertyType.h */,
+				DEB6E0871CF74842002EEA37 /* MJPropertyType.m */,
+				DEB6E0881CF74842002EEA37 /* NSObject+MJClass.h */,
+				DEB6E0891CF74842002EEA37 /* NSObject+MJClass.m */,
+				DEB6E08A1CF74842002EEA37 /* NSObject+MJCoding.h */,
+				DEB6E08B1CF74842002EEA37 /* NSObject+MJCoding.m */,
+				DEB6E08C1CF74842002EEA37 /* NSObject+MJKeyValue.h */,
+				DEB6E08D1CF74842002EEA37 /* NSObject+MJKeyValue.m */,
+				DEB6E08E1CF74842002EEA37 /* NSObject+MJProperty.h */,
+				DEB6E08F1CF74842002EEA37 /* NSObject+MJProperty.m */,
+				DEB6E0901CF74842002EEA37 /* NSString+MJExtension.h */,
+				DEB6E0911CF74842002EEA37 /* NSString+MJExtension.m */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+		DEB6E0A71CF74950002EEA37 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				DEB6E0A81CF74950002EEA37 /* buyao.wav */,
+				DEB6E0A91CF74950002EEA37 /* chatcome.wav */,
+				DEB6E0AA1CF74950002EEA37 /* G.E.M. 邓紫棋 - 泡沫.mp3 */,
+				DEB6E0AB1CF74950002EEA37 /* I'm yours.lrc */,
+				DEB6E0AC1CF74950002EEA37 /* Jason Mraz - I'm Yours.mp3 */,
+				DEB6E0AD1CF74950002EEA37 /* jason.jpg */,
+				DEB6E0AE1CF74950002EEA37 /* lamazhengzhuan.jpg */,
+				DEB6E0AF1CF74950002EEA37 /* Owl City - The Saltwater Room.mp3 */,
+				DEB6E0B01CF74950002EEA37 /* paomo.jpg */,
+				DEB6E0B11CF74950002EEA37 /* st.jpg */,
+				DEB6E0B21CF74950002EEA37 /* test.wav */,
+				DEB6E0B31CF74950002EEA37 /* The salt water room.lrc */,
+				DEB6E0B41CF74950002EEA37 /* xpg.jpg */,
+				DEB6E0B51CF74950002EEA37 /* 小苹果.lrc */,
+				DEB6E0B61CF74950002EEA37 /* 小苹果.mp3 */,
+				DEB6E0B71CF74950002EEA37 /* 张译 - 稳稳的幸福.mp3 */,
+				DEB6E0B81CF74950002EEA37 /* 月半小夜曲.lrc */,
+				DEB6E0B91CF74950002EEA37 /* 李克勤 - 月半小夜曲.mp3 */,
+				DEB6E0BA1CF74950002EEA37 /* 李克勤.jpg */,
+				DEB6E0BB1CF74950002EEA37 /* 泡沫.lrc */,
+				DEB6E0BC1CF74950002EEA37 /* 稳稳的幸福.lrc */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		DEB6E0D81CF7495A002EEA37 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				DEB6E09C1CF74950002EEA37 /* CZMusicModel.m */,
+				DEB6E0A31CF74950002EEA37 /* CZMusicModel.h */,
+				DEB6E09F1CF74950002EEA37 /* CZLrcModel.h */,
+				DEB6E0A01CF74950002EEA37 /* CZLrcModel.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		DEB6E0D91CF7497C002EEA37 /* tool */ = {
+			isa = PBXGroup;
+			children = (
+				DEB6E09D1CF74950002EEA37 /* CZMusicTool.h */,
+				DEB6E09E1CF74950002EEA37 /* CZMusicTool.m */,
+				DEB6E0A11CF74950002EEA37 /* CZLyricTool.h */,
+				DEB6E0A21CF74950002EEA37 /* CZLyricTool.m */,
+			);
+			name = tool;
+			sourceTree = "<group>";
+		};
+		DEB6E0DC1CF74D15002EEA37 /* framwork */ = {
+			isa = PBXGroup;
+			children = (
+				A396ACB71CF59E8100777ADD /* CoreTelephony.framework */,
+				A3FCF8601CDB2E9E00AE756F /* libc++.tbd */,
+				A3FCF85E1CDB2E8E00AE756F /* libz.tbd */,
+				A3FCF85C1CDB2CC300AE756F /* libsqlite3.0.tbd */,
+				A3FCF85A1CDB2C9400AE756F /* SystemConfiguration.framework */,
+			);
+			name = framwork;
+			sourceTree = "<group>";
+		};
+		DEB6E0DD1CF74D2E002EEA37 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				A31C18E11CCDC65C001006B3 /* um.png */,
+			);
+			name = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -724,29 +952,52 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEB6E0D61CF74950002EEA37 /* 泡沫.lrc in Resources */,
 				A31C18FF1CCDF1C8001006B3 /* SVProgressHUDView.xib in Resources */,
 				A3FD03481CCE1C1D00302D78 /* bg-addbutton.png in Resources */,
 				A31C18F91CCDF053001006B3 /* SVProgressHUD.bundle in Resources */,
+				DEB6E0D31CF74950002EEA37 /* 月半小夜曲.lrc in Resources */,
 				A3FD03511CCE1C1D00302D78 /* icon-plus@2x.png in Resources */,
+				DEB6E0CB1CF74950002EEA37 /* paomo.jpg in Resources */,
 				A36E84EB1CC8B8280058CCD7 /* Info.plist in Resources */,
+				DEB6E0D01CF74950002EEA37 /* 小苹果.lrc in Resources */,
 				A3FD034A1CCE1C1D00302D78 /* bg-menuitem-highlighted.png in Resources */,
 				A3FD03501CCE1C1D00302D78 /* icon-plus.png in Resources */,
+				DEB6E0C81CF74950002EEA37 /* jason.jpg in Resources */,
 				A36E84AD1CC8B7AD0058CCD7 /* LaunchScreen.storyboard in Resources */,
 				A31C18E01CCDC602001006B3 /* UMTableViewCell.xib in Resources */,
+				DEB6E0C41CF74950002EEA37 /* chatcome.wav in Resources */,
+				DEB6E0D71CF74950002EEA37 /* 稳稳的幸福.lrc in Resources */,
+				DEB6E0C51CF74950002EEA37 /* G.E.M. 邓紫棋 - 泡沫.mp3 in Resources */,
+				DEB6E0C31CF74950002EEA37 /* buyao.wav in Resources */,
 				A3FD03531CCE1C1D00302D78 /* icon-star@2x.png in Resources */,
 				A3FD034B1CCE1C1D00302D78 /* bg-menuitem-highlighted@2x.png in Resources */,
 				A3FD03471CCE1C1D00302D78 /* bg-addbutton-highlighted@2x.png in Resources */,
 				A3FD034F1CCE1C1D00302D78 /* icon-plus-highlighted@2x.png in Resources */,
+				DEB6E0D41CF74950002EEA37 /* 李克勤 - 月半小夜曲.mp3 in Resources */,
 				A3FD03521CCE1C1D00302D78 /* icon-star.png in Resources */,
+				DEB6E0CF1CF74950002EEA37 /* xpg.jpg in Resources */,
+				DEB6E0D21CF74950002EEA37 /* 张译 - 稳稳的幸福.mp3 in Resources */,
 				A3FD034D1CCE1C1D00302D78 /* bg-menuitem@2x.png in Resources */,
+				DEB6E0C61CF74950002EEA37 /* I'm yours.lrc in Resources */,
 				A3FD03491CCE1C1D00302D78 /* bg-addbutton@2x.png in Resources */,
 				A3FD034C1CCE1C1D00302D78 /* bg-menuitem.png in Resources */,
+				DEB6E0D11CF74950002EEA37 /* 小苹果.mp3 in Resources */,
+				DEB6E0CA1CF74950002EEA37 /* Owl City - The Saltwater Room.mp3 in Resources */,
+				DEB6E0CD1CF74950002EEA37 /* test.wav in Resources */,
+				DEB6E0D51CF74950002EEA37 /* 李克勤.jpg in Resources */,
 				A31C18E21CCDC65C001006B3 /* um.png in Resources */,
+				DEB6E0CC1CF74950002EEA37 /* st.jpg in Resources */,
 				A345869B1CDB1A5900F59E0B /* LoginView.xib in Resources */,
+				DEB6E0CE1CF74950002EEA37 /* The salt water room.lrc in Resources */,
 				A3FD03461CCE1C1D00302D78 /* bg-addbutton-highlighted.png in Resources */,
 				A36E84AA1CC8B7AD0058CCD7 /* Assets.xcassets in Resources */,
+				DEB6E0DB1CF74D0B002EEA37 /* mlist.plist in Resources */,
 				A36E84A81CC8B7AD0058CCD7 /* Main.storyboard in Resources */,
+				DEB6E0C71CF74950002EEA37 /* Jason Mraz - I'm Yours.mp3 in Resources */,
 				A3FD034E1CCE1C1D00302D78 /* icon-plus-highlighted.png in Resources */,
+				DEB6E0C91CF74950002EEA37 /* lamazhengzhuan.jpg in Resources */,
+				DEB6DFB61CF742ED002EEA37 /* MP3View.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -774,6 +1025,10 @@
 				A31C18F71CCDF053001006B3 /* SVIndefiniteAnimatedView.m in Sources */,
 				A335EE1E1CEEB17200E61C68 /* GrayPageControl.m in Sources */,
 				A31E1C651CCF58E400E04123 /* UIFontView.m in Sources */,
+				DEB6E0951CF74842002EEA37 /* MJPropertyKey.m in Sources */,
+				DEB6E03B1CF747D6002EEA37 /* NSObject+YYModel.m in Sources */,
+				DEB6E0C21CF74950002EEA37 /* CZLabel.m in Sources */,
+				DEB6E0991CF74842002EEA37 /* NSObject+MJKeyValue.m in Sources */,
 				A36E84F31CC8B8280058CCD7 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				A31C18D91CCDBF17001006B3 /* SWUtilityButtonTapGestureRecognizer.m in Sources */,
 				A3FCF8521CDB246600AE756F /* ApiXml.mm in Sources */,
@@ -783,24 +1038,33 @@
 				A31E1C601CCF486A00E04123 /* CircleProgressView.m in Sources */,
 				A31C18FA1CCDF053001006B3 /* SVProgressHUD.m in Sources */,
 				A36E84EC1CC8B8280058CCD7 /* MASCompositeConstraint.m in Sources */,
+				DEB6E0941CF74842002EEA37 /* MJProperty.m in Sources */,
 				A3FD032F1CCE139800302D78 /* AwesomeMenuView.m in Sources */,
 				A31C18FB1CCDF053001006B3 /* SVRadialGradientLayer.m in Sources */,
 				A31C18D61CCDBF17001006B3 /* SWCellScrollView.m in Sources */,
+				DEB6E0BF1CF74950002EEA37 /* CZLrcModel.m in Sources */,
 				A36E84F21CC8B8280058CCD7 /* NSArray+MASAdditions.m in Sources */,
 				A36E84A21CC8B7AD0058CCD7 /* AppDelegate.m in Sources */,
 				A34586941CDAF05D00F59E0B /* NSString+Trim.m in Sources */,
+				DEB6E03C1CF747D6002EEA37 /* YYClassInfo.m in Sources */,
 				A345868F1CDAF05D00F59E0B /* NSArray+keyedArchiver.m in Sources */,
 				A31E1C5D1CCF473B00E04123 /* TimeProgressView.m in Sources */,
 				A3FD03341CCE13C100302D78 /* AwesomeMenu.m in Sources */,
+				DEB6E09A1CF74842002EEA37 /* NSObject+MJProperty.m in Sources */,
 				A31C18E51CCDC8CD001006B3 /* ExampleTableViewCell.m in Sources */,
+				DEB6E09B1CF74842002EEA37 /* NSString+MJExtension.m in Sources */,
 				A36E84FF1CC8B9950058CCD7 /* MASExampleViewController.m in Sources */,
 				A31C18DA1CCDBF17001006B3 /* SWUtilityButtonView.m in Sources */,
 				A36E84EF1CC8B8280058CCD7 /* MASLayoutConstraint.m in Sources */,
+				DEB6E0961CF74842002EEA37 /* MJPropertyType.m in Sources */,
 				A36E849F1CC8B7AD0058CCD7 /* main.m in Sources */,
 				A36E84F51CC8B8280058CCD7 /* ViewController+MASAdditions.m in Sources */,
 				A34586991CDB1A2D00F59E0B /* LoginView.m in Sources */,
+				DEB6E0931CF74842002EEA37 /* MJFoundation.m in Sources */,
 				A31C18D71CCDBF17001006B3 /* SWLongPressGestureRecognizer.m in Sources */,
+				DEB6DFB41CF742D2002EEA37 /* MP3View.m in Sources */,
 				A34586901CDAF05D00F59E0B /* NSDate+Formatter.m in Sources */,
+				DEB6E0BE1CF74950002EEA37 /* CZMusicTool.m in Sources */,
 				A31C18D51CCDBF17001006B3 /* NSMutableArray+SWUtilityButtons.m in Sources */,
 				A31C18EB1CCDEEFE001006B3 /* SVProgressHUDView.m in Sources */,
 				A36E84F41CC8B8280058CCD7 /* View+MASAdditions.m in Sources */,
@@ -810,12 +1074,17 @@
 				A3FCF8531CDB246600AE756F /* payRequsestHandler.mm in Sources */,
 				A36E85031CC8BA500058CCD7 /* MASExampleBasicView.m in Sources */,
 				A36E84F01CC8B8280058CCD7 /* MASViewAttribute.m in Sources */,
+				DEB6E0921CF74842002EEA37 /* MJExtensionConst.m in Sources */,
+				DEB6E0C01CF74950002EEA37 /* CZLyricTool.m in Sources */,
+				DEB6E0981CF74842002EEA37 /* NSObject+MJCoding.m in Sources */,
+				DEB6E0BD1CF74950002EEA37 /* CZMusicModel.m in Sources */,
 				A3FCF8541CDB246600AE756F /* WXUtil.mm in Sources */,
 				A31C18DE1CCDBFB2001006B3 /* UMTableViewCell.m in Sources */,
 				A36E84ED1CC8B8280058CCD7 /* MASConstraint.m in Sources */,
 				A3FD03351CCE13C100302D78 /* AwesomeMenuItem.m in Sources */,
 				A36E84EE1CC8B8280058CCD7 /* MASConstraintMaker.m in Sources */,
 				A34586951CDAF05D00F59E0B /* UIImage+Resize.m in Sources */,
+				DEB6E0971CF74842002EEA37 /* NSObject+MJClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

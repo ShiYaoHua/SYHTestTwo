@@ -9,6 +9,7 @@
 #import "MASExampleViewController.h"
 #import "SVProgressHUDView.h"
 #import "LoginView.h"
+#import "MP3View.h"
 
 @interface MASExampleViewController ()
 
@@ -41,6 +42,12 @@
     
     if ([self.title isEqualToString:@"第三方登录"]) {
         self.view = [[[NSBundle mainBundle]loadNibNamed:@"LoginView" owner:self options:nil]lastObject];
+    }else{
+        self.view = self.viewClass.new;
+    }
+    
+    if ([self.title isEqualToString:@"mp3"]) {
+        self.view = [[[NSBundle mainBundle]loadNibNamed:@"MP3View" owner:self options:nil]lastObject];
     }else{
         self.view = self.viewClass.new;
     }
