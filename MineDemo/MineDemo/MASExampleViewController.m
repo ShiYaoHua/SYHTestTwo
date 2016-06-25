@@ -51,6 +51,13 @@
     }else{
         self.view = self.viewClass.new;
     }
+    
+    if ([self.title isEqualToString:@"支付宝支付"]) {
+        self.view = [[[NSBundle mainBundle]loadNibNamed:@"PayView" owner:self options:nil]lastObject];
+    }else{
+        self.view = self.viewClass.new;
+    }
+    
     self.view.backgroundColor = [UIColor whiteColor];
         
 }

@@ -83,6 +83,21 @@
 		A3FD03511CCE1C1D00302D78 /* icon-plus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3FD03431CCE1C1D00302D78 /* icon-plus@2x.png */; };
 		A3FD03521CCE1C1D00302D78 /* icon-star.png in Resources */ = {isa = PBXBuildFile; fileRef = A3FD03441CCE1C1D00302D78 /* icon-star.png */; };
 		A3FD03531CCE1C1D00302D78 /* icon-star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3FD03451CCE1C1D00302D78 /* icon-star@2x.png */; };
+		DE5FFA901D1ED21200428528 /* AnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5FFA8F1D1ED21200428528 /* AnimationView.m */; };
+		DE5FFAA81D1ED38B00428528 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5FFAA51D1ED38B00428528 /* MainViewController.m */; };
+		DE5FFAA91D1ED38B00428528 /* UIView+DegressCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5FFAA71D1ED38B00428528 /* UIView+DegressCenter.m */; };
+		DE69D8051D169FD800FA8940 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE69D8041D169FD800FA8940 /* CoreText.framework */; };
+		DE69D8071D169FE300FA8940 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE69D8061D169FE300FA8940 /* QuartzCore.framework */; };
+		DE69D8091D169FEC00FA8940 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE69D8081D169FEC00FA8940 /* CoreGraphics.framework */; };
+		DE69D80B1D169FF300FA8940 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE69D80A1D169FF300FA8940 /* UIKit.framework */; };
+		DE69D80D1D169FFA00FA8940 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE69D80C1D169FFA00FA8940 /* Foundation.framework */; };
+		DE69D80F1D16A00300FA8940 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE69D80E1D16A00300FA8940 /* CFNetwork.framework */; };
+		DE69D8111D16A00C00FA8940 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE69D8101D16A00C00FA8940 /* CoreMotion.framework */; };
+		DE69D8141D16A03900FA8940 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DE69D8121D16A03900FA8940 /* AlipaySDK.bundle */; };
+		DE69D8151D16A03900FA8940 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE69D8131D16A03900FA8940 /* AlipaySDK.framework */; };
+		DE69D81A1D16A0AF00FA8940 /* PayView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE69D8191D16A0AF00FA8940 /* PayView.m */; };
+		DE69D81C1D16D1C300FA8940 /* PayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE69D81B1D16D1C300FA8940 /* PayView.xib */; };
+		DE69D81F1D16E41E00FA8940 /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = DE69D81E1D16E41E00FA8940 /* Order.m */; };
 		DEB6DFB41CF742D2002EEA37 /* MP3View.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB6DFB31CF742D2002EEA37 /* MP3View.m */; };
 		DEB6DFB61CF742ED002EEA37 /* MP3View.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEB6DFB51CF742ED002EEA37 /* MP3View.xib */; };
 		DEB6E03B1CF747D6002EEA37 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB6DFBC1CF747D5002EEA37 /* NSObject+YYModel.m */; };
@@ -279,6 +294,27 @@
 		A3FD03431CCE1C1D00302D78 /* icon-plus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-plus@2x.png"; sourceTree = "<group>"; };
 		A3FD03441CCE1C1D00302D78 /* icon-star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-star.png"; sourceTree = "<group>"; };
 		A3FD03451CCE1C1D00302D78 /* icon-star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-star@2x.png"; sourceTree = "<group>"; };
+		DE5FFA8E1D1ED21200428528 /* AnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationView.h; sourceTree = "<group>"; };
+		DE5FFA8F1D1ED21200428528 /* AnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationView.m; sourceTree = "<group>"; };
+		DE5FFA921D1ED2C700428528 /* MineDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MineDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		DE5FFAA41D1ED38B00428528 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		DE5FFAA51D1ED38B00428528 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		DE5FFAA61D1ED38B00428528 /* UIView+DegressCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DegressCenter.h"; sourceTree = "<group>"; };
+		DE5FFAA71D1ED38B00428528 /* UIView+DegressCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DegressCenter.m"; sourceTree = "<group>"; };
+		DE69D8041D169FD800FA8940 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		DE69D8061D169FE300FA8940 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DE69D8081D169FEC00FA8940 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DE69D80A1D169FF300FA8940 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DE69D80C1D169FFA00FA8940 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DE69D80E1D16A00300FA8940 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		DE69D8101D16A00C00FA8940 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		DE69D8121D16A03900FA8940 /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		DE69D8131D16A03900FA8940 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		DE69D8181D16A0AF00FA8940 /* PayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayView.h; sourceTree = "<group>"; };
+		DE69D8191D16A0AF00FA8940 /* PayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayView.m; sourceTree = "<group>"; };
+		DE69D81B1D16D1C300FA8940 /* PayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PayView.xib; sourceTree = "<group>"; };
+		DE69D81D1D16E41E00FA8940 /* Order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Order.h; sourceTree = "<group>"; };
+		DE69D81E1D16E41E00FA8940 /* Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Order.m; sourceTree = "<group>"; };
 		DEB6DFB21CF742D2002EEA37 /* MP3View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP3View.h; sourceTree = "<group>"; };
 		DEB6DFB31CF742D2002EEA37 /* MP3View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MP3View.m; sourceTree = "<group>"; };
 		DEB6DFB51CF742ED002EEA37 /* MP3View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MP3View.xib; sourceTree = "<group>"; };
@@ -347,11 +383,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE69D8111D16A00C00FA8940 /* CoreMotion.framework in Frameworks */,
+				DE69D80F1D16A00300FA8940 /* CFNetwork.framework in Frameworks */,
+				DE69D80D1D169FFA00FA8940 /* Foundation.framework in Frameworks */,
+				DE69D80B1D169FF300FA8940 /* UIKit.framework in Frameworks */,
+				DE69D8091D169FEC00FA8940 /* CoreGraphics.framework in Frameworks */,
+				DE69D8071D169FE300FA8940 /* QuartzCore.framework in Frameworks */,
+				DE69D8051D169FD800FA8940 /* CoreText.framework in Frameworks */,
+				DE69D8151D16A03900FA8940 /* AlipaySDK.framework in Frameworks */,
 				A396ACB81CF59E8100777ADD /* CoreTelephony.framework in Frameworks */,
-				A3FCF8611CDB2E9E00AE756F /* libc++.tbd in Frameworks */,
-				A3FCF85F1CDB2E8E00AE756F /* libz.tbd in Frameworks */,
-				A3FCF85D1CDB2CC300AE756F /* libsqlite3.0.tbd in Frameworks */,
 				A3FCF85B1CDB2C9400AE756F /* SystemConfiguration.framework in Frameworks */,
+				A3FCF85F1CDB2E8E00AE756F /* libz.tbd in Frameworks */,
+				A3FCF8611CDB2E9E00AE756F /* libc++.tbd in Frameworks */,
+				A3FCF85D1CDB2CC300AE756F /* libsqlite3.0.tbd in Frameworks */,
 				A3FCF8551CDB246600AE756F /* libWeChatSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -512,6 +556,7 @@
 			isa = PBXGroup;
 			children = (
 				A36E849C1CC8B7AD0058CCD7 /* MineDemo */,
+				DE69D8161D16A05900FA8940 /* framework */,
 				A36E84B61CC8B7AE0058CCD7 /* MineDemoTests */,
 				A36E84C11CC8B7AE0058CCD7 /* MineDemoUITests */,
 				A36E849B1CC8B7AD0058CCD7 /* Products */,
@@ -534,7 +579,7 @@
 				A36E84A01CC8B7AD0058CCD7 /* AppDelegate.h */,
 				A36E84A11CC8B7AD0058CCD7 /* AppDelegate.m */,
 				A36E84F91CC8B8A00058CCD7 /* viewcontroller */,
-				A36E85001CC8BA3C0058CCD7 /* view */,
+				DE5FFA8C1D1ED1B700428528 /* New Group */,
 				A36E84AB1CC8B7AD0058CCD7 /* LaunchScreen.storyboard */,
 				A36E84A61CC8B7AD0058CCD7 /* Main.storyboard */,
 				A36E84A91CC8B7AD0058CCD7 /* Assets.xcassets */,
@@ -622,7 +667,9 @@
 		A36E85001CC8BA3C0058CCD7 /* view */ = {
 			isa = PBXGroup;
 			children = (
-				DEB6DFB11CF74288002EEA37 /* group10 */,
+				DE5FFA8D1D1ED1C700428528 /* 弹出动画 */,
+				DE69D8171D16A08900FA8940 /* 支付宝支付 */,
+				DEB6DFB11CF74288002EEA37 /* MP3 */,
 				A396ACA41CF54A2000777ADD /* group9 */,
 				A335EE181CEEAF4400E61C68 /* group8 */,
 				A345867B1CDAF05D00F59E0B /* Category */,
@@ -721,7 +768,57 @@
 			path = Images;
 			sourceTree = "<group>";
 		};
-		DEB6DFB11CF74288002EEA37 /* group10 */ = {
+		DE5FFA8C1D1ED1B700428528 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				A36E85001CC8BA3C0058CCD7 /* view */,
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		DE5FFA8D1D1ED1C700428528 /* 弹出动画 */ = {
+			isa = PBXGroup;
+			children = (
+				DE5FFAA41D1ED38B00428528 /* MainViewController.h */,
+				DE5FFAA51D1ED38B00428528 /* MainViewController.m */,
+				DE5FFAA61D1ED38B00428528 /* UIView+DegressCenter.h */,
+				DE5FFAA71D1ED38B00428528 /* UIView+DegressCenter.m */,
+				DE5FFA8E1D1ED21200428528 /* AnimationView.h */,
+				DE5FFA8F1D1ED21200428528 /* AnimationView.m */,
+				DE5FFA921D1ED2C700428528 /* MineDemo-Bridging-Header.h */,
+			);
+			name = "弹出动画";
+			sourceTree = "<group>";
+		};
+		DE69D8161D16A05900FA8940 /* framework */ = {
+			isa = PBXGroup;
+			children = (
+				DE69D8101D16A00C00FA8940 /* CoreMotion.framework */,
+				DE69D80E1D16A00300FA8940 /* CFNetwork.framework */,
+				DE69D80C1D169FFA00FA8940 /* Foundation.framework */,
+				DE69D80A1D169FF300FA8940 /* UIKit.framework */,
+				DE69D8081D169FEC00FA8940 /* CoreGraphics.framework */,
+				DE69D8061D169FE300FA8940 /* QuartzCore.framework */,
+				DE69D8041D169FD800FA8940 /* CoreText.framework */,
+				DE69D8121D16A03900FA8940 /* AlipaySDK.bundle */,
+				DE69D8131D16A03900FA8940 /* AlipaySDK.framework */,
+			);
+			name = framework;
+			sourceTree = "<group>";
+		};
+		DE69D8171D16A08900FA8940 /* 支付宝支付 */ = {
+			isa = PBXGroup;
+			children = (
+				DE69D8181D16A0AF00FA8940 /* PayView.h */,
+				DE69D8191D16A0AF00FA8940 /* PayView.m */,
+				DE69D81D1D16E41E00FA8940 /* Order.h */,
+				DE69D81E1D16E41E00FA8940 /* Order.m */,
+				DE69D81B1D16D1C300FA8940 /* PayView.xib */,
+			);
+			name = "支付宝支付";
+			sourceTree = "<group>";
+		};
+		DEB6DFB11CF74288002EEA37 /* MP3 */ = {
 			isa = PBXGroup;
 			children = (
 				DEB6E0D91CF7497C002EEA37 /* tool */,
@@ -735,7 +832,7 @@
 				DEB6E0A51CF74950002EEA37 /* CZLabel.h */,
 				DEB6E0A61CF74950002EEA37 /* CZLabel.m */,
 			);
-			name = group10;
+			name = MP3;
 			sourceTree = "<group>";
 		};
 		DEB6DFBA1CF747D5002EEA37 /* YYModel */ = {
@@ -953,6 +1050,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEB6E0D61CF74950002EEA37 /* 泡沫.lrc in Resources */,
+				DE69D81C1D16D1C300FA8940 /* PayView.xib in Resources */,
 				A31C18FF1CCDF1C8001006B3 /* SVProgressHUDView.xib in Resources */,
 				A3FD03481CCE1C1D00302D78 /* bg-addbutton.png in Resources */,
 				A31C18F91CCDF053001006B3 /* SVProgressHUD.bundle in Resources */,
@@ -982,6 +1080,7 @@
 				DEB6E0C61CF74950002EEA37 /* I'm yours.lrc in Resources */,
 				A3FD03491CCE1C1D00302D78 /* bg-addbutton@2x.png in Resources */,
 				A3FD034C1CCE1C1D00302D78 /* bg-menuitem.png in Resources */,
+				DE69D8141D16A03900FA8940 /* AlipaySDK.bundle in Resources */,
 				DEB6E0D11CF74950002EEA37 /* 小苹果.mp3 in Resources */,
 				DEB6E0CA1CF74950002EEA37 /* Owl City - The Saltwater Room.mp3 in Resources */,
 				DEB6E0CD1CF74950002EEA37 /* test.wav in Resources */,
@@ -1043,11 +1142,13 @@
 				A31C18FB1CCDF053001006B3 /* SVRadialGradientLayer.m in Sources */,
 				A31C18D61CCDBF17001006B3 /* SWCellScrollView.m in Sources */,
 				DEB6E0BF1CF74950002EEA37 /* CZLrcModel.m in Sources */,
+				DE69D81F1D16E41E00FA8940 /* Order.m in Sources */,
 				A36E84F21CC8B8280058CCD7 /* NSArray+MASAdditions.m in Sources */,
 				A36E84A21CC8B7AD0058CCD7 /* AppDelegate.m in Sources */,
 				A34586941CDAF05D00F59E0B /* NSString+Trim.m in Sources */,
 				DEB6E03C1CF747D6002EEA37 /* YYClassInfo.m in Sources */,
 				A345868F1CDAF05D00F59E0B /* NSArray+keyedArchiver.m in Sources */,
+				DE5FFAA91D1ED38B00428528 /* UIView+DegressCenter.m in Sources */,
 				A31E1C5D1CCF473B00E04123 /* TimeProgressView.m in Sources */,
 				A3FD03341CCE13C100302D78 /* AwesomeMenu.m in Sources */,
 				DEB6E09A1CF74842002EEA37 /* NSObject+MJProperty.m in Sources */,
@@ -1060,9 +1161,11 @@
 				A36E849F1CC8B7AD0058CCD7 /* main.m in Sources */,
 				A36E84F51CC8B8280058CCD7 /* ViewController+MASAdditions.m in Sources */,
 				A34586991CDB1A2D00F59E0B /* LoginView.m in Sources */,
+				DE5FFA901D1ED21200428528 /* AnimationView.m in Sources */,
 				DEB6E0931CF74842002EEA37 /* MJFoundation.m in Sources */,
 				A31C18D71CCDBF17001006B3 /* SWLongPressGestureRecognizer.m in Sources */,
 				DEB6DFB41CF742D2002EEA37 /* MP3View.m in Sources */,
+				DE69D81A1D16A0AF00FA8940 /* PayView.m in Sources */,
 				A34586901CDAF05D00F59E0B /* NSDate+Formatter.m in Sources */,
 				DEB6E0BE1CF74950002EEA37 /* CZMusicTool.m in Sources */,
 				A31C18D51CCDBF17001006B3 /* NSMutableArray+SWUtilityButtons.m in Sources */,
@@ -1076,6 +1179,7 @@
 				A36E84F01CC8B8280058CCD7 /* MASViewAttribute.m in Sources */,
 				DEB6E0921CF74842002EEA37 /* MJExtensionConst.m in Sources */,
 				DEB6E0C01CF74950002EEA37 /* CZLyricTool.m in Sources */,
+				DE5FFAA81D1ED38B00428528 /* MainViewController.m in Sources */,
 				DEB6E0981CF74842002EEA37 /* NSObject+MJCoding.m in Sources */,
 				DEB6E0BD1CF74950002EEA37 /* CZMusicModel.m in Sources */,
 				A3FCF8541CDB246600AE756F /* WXUtil.mm in Sources */,
@@ -1224,6 +1328,7 @@
 		A36E84C81CC8B7AE0058CCD7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1243,12 +1348,15 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mobo.ispamoboiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MineDemo/MineDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		A36E84C91CC8B7AE0058CCD7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1268,6 +1376,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mobo.ispamoboiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MineDemo/MineDemo-Bridging-Header.h";
 			};
 			name = Release;
 		};

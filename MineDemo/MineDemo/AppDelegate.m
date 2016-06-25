@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "MASExampleListViewController.h"
 #import "ThirdAccountUserInformation.h"
+#import <AlipaySDK/AlipaySDK.h>
 
 /**微信好友*/
 #define SHARE_WECHAR_F @"SHARE_WECHAR_F"
@@ -33,12 +34,40 @@
     
     return YES;
 }
+- (BOOL)application:(UIApplication *)application
+            openURL:(NSURL *)url
+  sourceApplication:(NSString *)sourceApplication
+         annotation:(id)annotation{
+    
+    if ([url.host isEqualToString:@"safepay"]) {
+        //跳转支付宝钱包进行支付，处理支付结果
+        [[AlipaySDK defaultService] processOrderWithPaymentResult:url standbyCallback:^(NSDictionary *resultDic) {
+            NSLog(@"result = %@",resultDic);
+        }];
+    }
+    return YES;
+
+}
+// NOTE: 9.0以后使用新API接口
 - (BOOL)application:(UIApplication *)application handleOpenURL:(nonnull NSURL *)url{
     return [WXApi handleOpenURL:url delegate:self];
     
 }
 - (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<NSString *,id> *)options{
+    
+    
+    if ([url.host isEqualToString:@"safepay"]) {
+        
+        //跳转支付宝钱包进行支付，处理支付结果
+        [[AlipaySDK defaultService] processOrderWithPaymentResult:url standbyCallback:^(NSDictionary *resultDic) {
+            NSLog(@"result = %@",resultDic);
+        }];
+        
+        return YES;
+    }
+    
     return [WXApi handleOpenURL:url delegate:self];
+    
     
 }
 #pragma mark 微信登录
