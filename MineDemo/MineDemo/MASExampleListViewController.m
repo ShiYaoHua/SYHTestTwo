@@ -21,6 +21,7 @@
 #import "PayView.h"
 #import "AnimationView.h"
 #import "ShineLabelDemo.h"
+#import "Menu.h"
 
 
 static NSString * const kMASCellReuseIdentifier = @"kMASCellReuseIdentifier";
@@ -61,7 +62,8 @@ static NSString * const kMASCellReuseIdentifier = @"kMASCellReuseIdentifier";
       [[MASExampleViewController alloc] initWithTitle:@"mp3" viewClass:MP3View.class],
       [[MASExampleViewController alloc] initWithTitle:@"支付宝支付" viewClass:PayView.class],
       [[MASExampleViewController alloc] initWithTitle:@"弹出动画视图" viewClass:AnimationView.class],
-       [[MASExampleViewController alloc] initWithTitle:@"一个类似Secret文字渐变效果的开源库" viewClass:ShineLabelDemo.class]
+       [[MASExampleViewController alloc] initWithTitle:@"一个类似Secret文字渐变效果的开源库" viewClass:ShineLabelDemo.class],
+     [[MASExampleViewController alloc] initWithTitle:@"图片浏览控件" viewClass:Menu.class]
       
       ];
     

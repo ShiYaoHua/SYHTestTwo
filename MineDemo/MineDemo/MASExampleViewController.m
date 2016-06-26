@@ -11,7 +11,7 @@
 #import "LoginView.h"
 #import "MP3View.h"
 
-@interface MASExampleViewController ()
+@interface MASExampleViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @property (nonatomic, strong) Class viewClass;
 
@@ -36,24 +36,23 @@
     
      if ([self.title isEqualToString:@"SVProgressHUD_SDK"]) {
          self.view = [[[NSBundle mainBundle]loadNibNamed:@"SVProgressHUDView" owner:self options:nil]lastObject];
-     }else{
-         self.view = self.viewClass.new;
      }
     
     if ([self.title isEqualToString:@"第三方登录"]) {
         self.view = [[[NSBundle mainBundle]loadNibNamed:@"LoginView" owner:self options:nil]lastObject];
-    }else{
-        self.view = self.viewClass.new;
     }
     
     if ([self.title isEqualToString:@"mp3"]) {
         self.view = [[[NSBundle mainBundle]loadNibNamed:@"MP3View" owner:self options:nil]lastObject];
-    }else{
-        self.view = self.viewClass.new;
     }
     
     if ([self.title isEqualToString:@"支付宝支付"]) {
         self.view = [[[NSBundle mainBundle]loadNibNamed:@"PayView" owner:self options:nil]lastObject];
+        
+    }
+    if([self.title isEqualToString:@"图片浏览控件"]){
+        return;
+        
     }else{
         self.view = self.viewClass.new;
     }
