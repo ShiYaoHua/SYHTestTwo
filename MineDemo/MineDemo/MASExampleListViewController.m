@@ -20,6 +20,7 @@
 #import "MP3View.h"
 #import "PayView.h"
 #import "AnimationView.h"
+#import "ShineLabelDemo.h"
 
 
 static NSString * const kMASCellReuseIdentifier = @"kMASCellReuseIdentifier";
@@ -59,7 +60,9 @@ static NSString * const kMASCellReuseIdentifier = @"kMASCellReuseIdentifier";
       [[MASExampleViewController alloc] initWithTitle:@"计算label的大小" viewClass:TestView.class],
       [[MASExampleViewController alloc] initWithTitle:@"mp3" viewClass:MP3View.class],
       [[MASExampleViewController alloc] initWithTitle:@"支付宝支付" viewClass:PayView.class],
-      [[MASExampleViewController alloc] initWithTitle:@"弹出动画视图" viewClass:AnimationView.class]
+      [[MASExampleViewController alloc] initWithTitle:@"弹出动画视图" viewClass:AnimationView.class],
+       [[MASExampleViewController alloc] initWithTitle:@"一个类似Secret文字渐变效果的开源库" viewClass:ShineLabelDemo.class]
+      
       ];
     
     

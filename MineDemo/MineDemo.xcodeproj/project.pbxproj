@@ -139,6 +139,8 @@
 		DEB6E0D61CF74950002EEA37 /* 泡沫.lrc in Resources */ = {isa = PBXBuildFile; fileRef = DEB6E0BB1CF74950002EEA37 /* 泡沫.lrc */; };
 		DEB6E0D71CF74950002EEA37 /* 稳稳的幸福.lrc in Resources */ = {isa = PBXBuildFile; fileRef = DEB6E0BC1CF74950002EEA37 /* 稳稳的幸福.lrc */; };
 		DEB6E0DB1CF74D0B002EEA37 /* mlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = DEB6E0DA1CF74D0B002EEA37 /* mlist.plist */; };
+		DEEDD9BE1D1F8AE200DCBDB0 /* ShineLabelDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEDD9BD1D1F8AE200DCBDB0 /* ShineLabelDemo.m */; };
+		DEEDD9C11D1F8BD000DCBDB0 /* RQShineLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEDD9C01D1F8BD000DCBDB0 /* RQShineLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -296,7 +298,6 @@
 		A3FD03451CCE1C1D00302D78 /* icon-star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-star@2x.png"; sourceTree = "<group>"; };
 		DE5FFA8E1D1ED21200428528 /* AnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationView.h; sourceTree = "<group>"; };
 		DE5FFA8F1D1ED21200428528 /* AnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationView.m; sourceTree = "<group>"; };
-		DE5FFA921D1ED2C700428528 /* MineDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MineDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		DE5FFAA41D1ED38B00428528 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		DE5FFAA51D1ED38B00428528 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		DE5FFAA61D1ED38B00428528 /* UIView+DegressCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DegressCenter.h"; sourceTree = "<group>"; };
@@ -376,6 +377,10 @@
 		DEB6E0BB1CF74950002EEA37 /* 泡沫.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "泡沫.lrc"; sourceTree = "<group>"; };
 		DEB6E0BC1CF74950002EEA37 /* 稳稳的幸福.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "稳稳的幸福.lrc"; sourceTree = "<group>"; };
 		DEB6E0DA1CF74D0B002EEA37 /* mlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = mlist.plist; sourceTree = "<group>"; };
+		DEEDD9BC1D1F8AE200DCBDB0 /* ShineLabelDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShineLabelDemo.h; sourceTree = "<group>"; };
+		DEEDD9BD1D1F8AE200DCBDB0 /* ShineLabelDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShineLabelDemo.m; sourceTree = "<group>"; };
+		DEEDD9BF1D1F8BD000DCBDB0 /* RQShineLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQShineLabel.h; sourceTree = "<group>"; };
+		DEEDD9C01D1F8BD000DCBDB0 /* RQShineLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQShineLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -667,6 +672,7 @@
 		A36E85001CC8BA3C0058CCD7 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				DEEDD9BB1D1F8AC500DCBDB0 /* New Group */,
 				DE5FFA8D1D1ED1C700428528 /* 弹出动画 */,
 				DE69D8171D16A08900FA8940 /* 支付宝支付 */,
 				DEB6DFB11CF74288002EEA37 /* MP3 */,
@@ -785,7 +791,6 @@
 				DE5FFAA71D1ED38B00428528 /* UIView+DegressCenter.m */,
 				DE5FFA8E1D1ED21200428528 /* AnimationView.h */,
 				DE5FFA8F1D1ED21200428528 /* AnimationView.m */,
-				DE5FFA921D1ED2C700428528 /* MineDemo-Bridging-Header.h */,
 			);
 			name = "弹出动画";
 			sourceTree = "<group>";
@@ -944,6 +949,17 @@
 				A31C18E11CCDC65C001006B3 /* um.png */,
 			);
 			name = image;
+			sourceTree = "<group>";
+		};
+		DEEDD9BB1D1F8AC500DCBDB0 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				DEEDD9BF1D1F8BD000DCBDB0 /* RQShineLabel.h */,
+				DEEDD9C01D1F8BD000DCBDB0 /* RQShineLabel.m */,
+				DEEDD9BC1D1F8AE200DCBDB0 /* ShineLabelDemo.h */,
+				DEEDD9BD1D1F8AE200DCBDB0 /* ShineLabelDemo.m */,
+			);
+			name = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1165,6 +1181,8 @@
 				DEB6E0931CF74842002EEA37 /* MJFoundation.m in Sources */,
 				A31C18D71CCDBF17001006B3 /* SWLongPressGestureRecognizer.m in Sources */,
 				DEB6DFB41CF742D2002EEA37 /* MP3View.m in Sources */,
+				DEEDD9BE1D1F8AE200DCBDB0 /* ShineLabelDemo.m in Sources */,
+				DEEDD9C11D1F8BD000DCBDB0 /* RQShineLabel.m in Sources */,
 				DE69D81A1D16A0AF00FA8940 /* PayView.m in Sources */,
 				A34586901CDAF05D00F59E0B /* NSDate+Formatter.m in Sources */,
 				DEB6E0BE1CF74950002EEA37 /* CZMusicTool.m in Sources */,
